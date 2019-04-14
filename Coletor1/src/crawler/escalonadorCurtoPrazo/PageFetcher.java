@@ -60,7 +60,7 @@ public class PageFetcher implements Runnable {
                         escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
                     }
                     
-                    System.out.println(Thread.currentThread().getName() + " [PAG CONSUMIDA]" + "\tDEPTH: " + url.getDepth() + "\t" + url.getAddress());
+                    System.out.println(Thread.currentThread().getName() + " [PAG CONSUMIDA]" + "\tCOUNT: " + escalonador.getCount() + "\tDEPTH: " + url.getDepth() + "\t" + url.getAddress());
                     escalonador.putFetchedPage(url);
                     escalonador.countFetchedPage();
 

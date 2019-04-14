@@ -21,7 +21,7 @@ public class EscalonadorSimples implements Escalonador {
     public LinkedHashMap<Servidor, LinkedList<URLAddress>> paginasColetadas;
     public LinkedHashMap<Servidor, Record> records;
     
-    public int count = 0;
+    private int count = 0;
 
     public EscalonadorSimples() {
         filaPaginas = new LinkedHashMap<>(); // páginas a serem coletadas de cada servidor
@@ -140,6 +140,10 @@ public class EscalonadorSimples implements Escalonador {
     @Override
     public synchronized void countFetchedPage() {
         count++;
+    }
+    
+    public synchronized int getCount() {
+        return count;
     }
 
 }
