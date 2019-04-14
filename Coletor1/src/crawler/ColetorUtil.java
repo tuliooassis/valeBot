@@ -105,5 +105,21 @@ public class ColetorUtil {
         }
         return result;
     }
+    
+    public static String getAbsoluteURL(URLAddress url, String urlRelative){
+        String join = "/";
+        
+        if (urlRelative.contains("#")) urlRelative = urlRelative.substring(0, urlRelative.indexOf("#")); 
+        
+        while (urlRelative.endsWith("."))
+            urlRelative = urlRelative.substring(0, urlRelative.lastIndexOf("."));
+       
+        while (urlRelative.endsWith("/")) urlRelative = urlRelative.substring(0, urlRelative.lastIndexOf("/"));
+        
+        if (ColetorUtil.isAbsoluteURL(urlRelative))
+            return urlRelative;
 
+        join = urlRelative.length() == 0 || urlRelative.startsWith(join) ? "" : join;
+        return url.getProtocol() + "://" + url.getDomain() + join + urlRelative;
+    }
 }

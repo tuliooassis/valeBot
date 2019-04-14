@@ -29,13 +29,15 @@ public class PageFetcher implements Runnable {
 
     @Override
     public void run() {
-
+        
         while (!escalonador.finalizouColeta()) {
 
             URLAddress url = escalonador.getURL();
             Record recordAllowRobots = escalonador.getRecordAllowRobots(url);
 
             try {
+                if (url == null) continue;
+                
                 if (recordAllowRobots == null) {
                     RobotExclusion re = new RobotExclusion();
                     try {
@@ -46,27 +48,28 @@ public class PageFetcher implements Runnable {
                     }
                 }
                 if (recordAllowRobots.allows(url.getPath())) {
-                    System.out.println("Consumindo página " + url.getAddress());
                     InputStream is = ColetorUtil.getUrlStream(USERAGENT, new URL(url.getAddress()));
                     String page = ColetorUtil.consumeStream(is);
                     HtmlCleaner hc = new HtmlCleaner();
                     TagNode tag = hc.clean(page);
                     TagNode[] urlNodes = tag.getElementsHavingAttribute("href", true);
-
+                    
                     for (int i = 0; i < urlNodes.length; i++) {
                         String urlToCollect = urlNodes[i].getAttributeByName("href");
-                        if (!ColetorUtil.isAbsoluteURL(urlToCollect)) {
-                            urlToCollect = url.getDomain() + urlToCollect;
-                        }
+                        urlToCollect = ColetorUtil.getAbsoluteURL(url, urlToCollect);
                         escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
                     }
+                    
+                    System.out.println(Thread.currentThread().getName() + " [PAG CONSUMIDA]" + "\tDEPTH: " + url.getDepth() + "\t" + url.getAddress());
+                    escalonador.putFetchedPage(url);
+                    escalonador.countFetchedPage();
 
                 }
-
             } catch (Exception ex) {
-                System.out.println("Exception " + ex + " URL: " + url.getAddress());
+                System.out.println(Thread.currentThread().getName() + " [EXCECÃO] \t\t\t\t" + url.getAddress());
             }
         }
-    }
+        System.out.println(Thread.currentThread().getName() + " [FINALIZADA]");
+     }
 
 }

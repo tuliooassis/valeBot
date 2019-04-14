@@ -15,28 +15,42 @@ import java.util.logging.Logger;
 
 public class EscalonadorSimples implements Escalonador {
 
-    public final int DEPTH_LIMIT = 3;
-    public final int PAGES_LIMIT = 100;
+    public final int DEPTH_LIMIT = 4;
+    public final int PAGES_LIMIT = 500;
     public LinkedHashMap<Servidor, LinkedList<URLAddress>> filaPaginas;
+    public LinkedHashMap<Servidor, LinkedList<URLAddress>> paginasColetadas;
     public LinkedHashMap<Servidor, Record> records;
-    public LinkedHashMap<URLAddress, Boolean> fetchedUrls;
     
     public int count = 0;
 
     public EscalonadorSimples() {
-        filaPaginas = new LinkedHashMap<>();
-        records = new LinkedHashMap<>();
-        fetchedUrls = new LinkedHashMap<>();
+        filaPaginas = new LinkedHashMap<>(); // páginas a serem coletadas de cada servidor
+        paginasColetadas = new LinkedHashMap<>(); // páginas já coletadas de cada servidor
+        records = new LinkedHashMap<>(); // records dos servidores
+        
+        filaPaginas.put(new Servidor("computerworld.com.br"), new LinkedList<>());      // Felipe
+        filaPaginas.put(new Servidor("www.taringa.net"), new LinkedList<>());           // Felipe
+        filaPaginas.put(new Servidor("www.theguardian.com"), new LinkedList<>());       // Marcela
+        filaPaginas.put(new Servidor("www.pcworld.com"), new LinkedList<>());           // Marcela
+        filaPaginas.put(new Servidor("indianexpress.com"), new LinkedList<>());         // Tulio
+        filaPaginas.put(new Servidor("www.soy502.com"), new LinkedList<>());            // Tulio
 
-//            filaPaginas.put(new Servidor("www.theguardian.com"), new LinkedList<>());
-//            filaPaginas.put(new Servidor("www.submarino.com.br"), new LinkedList<>());
-        filaPaginas.put(new Servidor("www.indianexpress.com"), new LinkedList<>());
+
+        paginasColetadas.put(new Servidor("computerworld.com.br"), new LinkedList<>());
+        paginasColetadas.put(new Servidor("www.taringa.net"), new LinkedList<>());
+        paginasColetadas.put(new Servidor("www.theguardian.com"), new LinkedList<>());
+        paginasColetadas.put(new Servidor("www.pcworld.com"), new LinkedList<>());
+        paginasColetadas.put(new Servidor("indianexpress.com"), new LinkedList<>());
+        paginasColetadas.put(new Servidor("www.soy502.com"), new LinkedList<>());
 
         try {
+            adicionaNovaPagina(new URLAddress("https://computerworld.com.br", 0));
+            adicionaNovaPagina(new URLAddress("https://www.taringa.net", 0));
+            adicionaNovaPagina(new URLAddress("https://www.theguardian.com", 0));
+            adicionaNovaPagina(new URLAddress("https://www.pcworld.com", 0));
+            adicionaNovaPagina(new URLAddress("https://indianexpress.com", 0));
+            adicionaNovaPagina(new URLAddress("https://www.soy502.com", 0));
 
-//                adicionaNovaPagina(new URLAddress("https://www.submarino.com.br", 0));
-//                adicionaNovaPagina(new URLAddress("https://www.theguardian.com", 0));
-            adicionaNovaPagina(new URLAddress("https://www.indianexpress.com", 0));
         } catch (MalformedURLException e) {
             System.out.println("Exception: MalformedURLException - " + e);
         }
@@ -47,29 +61,26 @@ public class EscalonadorSimples implements Escalonador {
         URLAddress url = null;
 
         for (Servidor s : filaPaginas.keySet()) {
-            LinkedList<URLAddress> lista;
-            lista = filaPaginas.get(s);
-            if (s.isAccessible() && !lista.isEmpty()) {
-                url = lista.removeFirst();
-                
-                if (fetchedUrls.get(url) == null){
+            if (s.isAccessible() && !filaPaginas.get(s).isEmpty()) {
+                url = filaPaginas.get(s).removeFirst();
+                if (!paginasColetadas.get(new Servidor(url.getDomain())).contains(url)){
                     s.acessadoAgora();
-                    fetchedUrls.put(url, true);
                     return url;
                 }
                 else {
                     return null;
                 }
             }
-            else {
+            else if (filaPaginas.get(s).isEmpty()){
                 try {
-                    this.wait(Servidor.ACESSO_MILIS + 1000L);
+                    System.out.println(Thread.currentThread().getName() + "[PARADA]");
+                    this.wait(Servidor.ACESSO_MILIS);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         }
-
+        
         return url;
     }
 
@@ -78,6 +89,11 @@ public class EscalonadorSimples implements Escalonador {
         Servidor servidor = new Servidor(urlAdd.getDomain());
         if (urlAdd.getDepth() > DEPTH_LIMIT) {
             return false;
+        }
+        
+        if (paginasColetadas.containsKey(servidor)) {
+            if (paginasColetadas.get(servidor).contains(urlAdd))
+                return false;
         }
 
         if (filaPaginas.containsKey(servidor)) {
@@ -88,16 +104,12 @@ public class EscalonadorSimples implements Escalonador {
                 return false;
             }
         } else {
-            LinkedList<URLAddress> fila = new LinkedList<>();
-            fila.add(urlAdd);
-            filaPaginas.put(servidor, fila);
-            return true;
-
+            return false;
         }
     }
 
     @Override
-    public Record getRecordAllowRobots(URLAddress url) {
+    public synchronized Record getRecordAllowRobots(URLAddress url) {
         if (url == null) {
             return null;
         }
@@ -112,17 +124,21 @@ public class EscalonadorSimples implements Escalonador {
     }
 
     @Override
-    public void putRecorded(String domain, Record domainRec) {
+    public synchronized void putRecorded(String domain, Record domainRec) {
         records.put(new Servidor(domain), domainRec);
     }
 
+    public synchronized void putFetchedPage(URLAddress url) {
+        paginasColetadas.get(new Servidor(url.getDomain())).add(url);
+    }
+
     @Override
-    public boolean finalizouColeta() {
+    public synchronized boolean finalizouColeta() {
         return count > PAGES_LIMIT;
     }
 
     @Override
-    public void countFetchedPage() {
+    public synchronized void countFetchedPage() {
         count++;
     }
 

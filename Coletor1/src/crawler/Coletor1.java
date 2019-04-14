@@ -6,6 +6,8 @@
 package crawler;
 
 import crawler.escalonadorCurtoPrazo.PageFetcher;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -13,14 +15,19 @@ import crawler.escalonadorCurtoPrazo.PageFetcher;
  */
 public class Coletor1 {
 
-    private final static int NUM_THREADS = 10;
+    private final static int NUM_THREADS = 100;
 
     public static void main(String[] args) throws InterruptedException {
+        PageFetcher pf = new PageFetcher();
+        List<Thread> threads = new ArrayList<Thread>();
+        
         for (int i = 0; i < NUM_THREADS; i++) {
-            PageFetcher pf = new PageFetcher();
-
             Thread thread = new Thread(pf);
             thread.start();
+            threads.add(thread);
+        }
+        
+        for(Thread thread : threads) {
             thread.join();
         }
     }

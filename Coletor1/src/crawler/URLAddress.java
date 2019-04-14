@@ -49,6 +49,28 @@ public class URLAddress {
         // TODO Auto-generated method stub
         return address.getPath().length() == 0 ? "/" : "";
     }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        URLAddress other = (URLAddress) obj;
+        if (address == null) {
+            if (other.address != null) {
+                return false;
+            }
+        } else if (!address.equals(other.address)) {
+            return false;
+        }
+        return true;
+    }
 
     public static void main(String[] args) throws MalformedURLException, UnknownHostException {
         URLAddress url1 = new URLAddress("http://www.terra.com.br/oioi/lala", 0);

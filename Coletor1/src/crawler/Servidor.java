@@ -2,7 +2,7 @@ package crawler;
 
 public class Servidor {
 
-    public static final long ACESSO_MILIS = 1000;
+    public static final long ACESSO_MILIS = 30 * 1000;
 
     private String nome;
     private long lastAccess;
