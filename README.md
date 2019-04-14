@@ -3,9 +3,9 @@ Esta página web tem como objetivo descrever o coletor criado para a matéria de
 
 Membros do Grupo:
 
-- Túlio Assis
-- Felipe Freitas
-- Marcela Viana
+- [Felipe Freitas](https://github.com/felipefreitas)
+- [Marcela Viana](https://github.com/MarciViana)
+- [Túlio Assis](http://github.com/tuliooassis)
 
 O objetivo deste projeto é estudar e aprender a arquitetura de um Coletor Simples para Web, desenvolvendo um coletor de propósito geral.
 
