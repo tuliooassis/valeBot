@@ -18,6 +18,7 @@ public class EscalonadorSimples implements Escalonador {
     public final int DEPTH_LIMIT = 4;
     public final int PAGES_LIMIT = 500;
     public LinkedHashMap<Servidor, LinkedList<URLAddress>> filaPaginas;
+    public LinkedHashMap<Servidor, LinkedList<URLAddress>> blackDominios;
     public LinkedHashMap<Servidor, LinkedList<URLAddress>> paginasColetadas;
     public LinkedHashMap<Servidor, Record> records;
     
@@ -25,6 +26,7 @@ public class EscalonadorSimples implements Escalonador {
 
     public EscalonadorSimples() {
         filaPaginas = new LinkedHashMap<>(); // páginas a serem coletadas de cada servidor
+        blackDominios = new LinkedHashMap<>(); // páginas que deram exception e não serão mais coletadas
         paginasColetadas = new LinkedHashMap<>(); // páginas já coletadas de cada servidor
         records = new LinkedHashMap<>(); // records dos servidores
         
@@ -81,7 +83,7 @@ public class EscalonadorSimples implements Escalonador {
 
         return url;
     }
-
+    
     @Override
     public synchronized boolean adicionaNovaPagina(URLAddress urlAdd) {
         Servidor servidor = new Servidor(urlAdd.getDomain());
@@ -93,21 +95,27 @@ public class EscalonadorSimples implements Escalonador {
             if (paginasColetadas.get(servidor).contains(urlAdd))
                 return false;
         }
+        
+        if (blackDominios.containsKey(servidor)) {
+            return false;
+        }
 
         if (filaPaginas.containsKey(servidor)) {
             if (urlAdd.getDepth() <= DEPTH_LIMIT && !filaPaginas.get(servidor).contains(urlAdd)) {
-                filaPaginas.get(servidor).add(urlAdd);
+                this.putPagina(urlAdd);
                 return true;
             } else {
                 return false;
             }
         } else {
-            return false;
+            this.putPagina(urlAdd);
+            this.putFetchedPage(urlAdd);
+            return true;
         }
     }
 
     @Override
-    public synchronized Record getRecordAllowRobots(URLAddress url) {
+    public Record getRecordAllowRobots(URLAddress url) {
         if (url == null) {
             return null;
         }
@@ -116,6 +124,7 @@ public class EscalonadorSimples implements Escalonador {
         try {
             return robotExclusion.get(new URL(url.getAddress()), "valeBot");
         } catch (MalformedURLException ex) {
+            this.putBlackDominios(url);
             Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
@@ -127,11 +136,44 @@ public class EscalonadorSimples implements Escalonador {
     }
 
     public synchronized void putFetchedPage(URLAddress url) {
-        paginasColetadas.get(new Servidor(url.getDomain())).add(url);
+        Servidor s = new Servidor(url.getDomain());
+        if (paginasColetadas.get(s) != null){
+            paginasColetadas.get(s).add(url);
+        }
+        else {
+            LinkedList<URLAddress> fila = new LinkedList<>();
+            fila.add(url);
+            paginasColetadas.put(s, fila);
+        }
+    }
+    
+    public synchronized void putPagina(URLAddress url) {
+        Servidor s = new Servidor(url.getDomain());
+        if (filaPaginas.get(s) != null){
+            filaPaginas.get(s).add(url);
+        }
+        else {
+            LinkedList<URLAddress> fila = new LinkedList<>();
+            fila.add(url);
+            filaPaginas.put(s, fila);
+        }
+    }
+    
+    public synchronized void putBlackDominios(URLAddress url) {
+        Servidor s = new Servidor(url.getDomain());
+        if (blackDominios.get(s) != null){
+            blackDominios.get(s).add(url);
+        }
+        else {
+            LinkedList<URLAddress> fila = new LinkedList<>();
+            fila.add(url);
+            blackDominios.put(s, fila);
+        }
+        System.out.println(Thread.currentThread().getName() + " [EXCECÃO] \t\t\t\t\t\t" + url.getAddress());
     }
 
     @Override
-    public synchronized boolean finalizouColeta() {
+    public boolean finalizouColeta() {
         return count > PAGES_LIMIT;
     }
 
@@ -140,7 +182,7 @@ public class EscalonadorSimples implements Escalonador {
         count++;
     }
     
-    public synchronized int getCount() {
+    public int getCount() {
         return count;
     }
 

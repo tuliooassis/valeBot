@@ -29,13 +29,13 @@ public class PageFetcher implements Runnable {
 
     @Override
     public void run() {
-        
+        URLAddress url = null;
+        Record recordAllowRobots = null;
         while (!escalonador.finalizouColeta()) {
-
-            URLAddress url = escalonador.getURL();
-            Record recordAllowRobots = escalonador.getRecordAllowRobots(url);
-
             try {
+                url = escalonador.getURL();
+                recordAllowRobots = escalonador.getRecordAllowRobots(url);
+
                 if (url == null) continue;
                 
                 if (recordAllowRobots == null) {
@@ -44,19 +44,26 @@ public class PageFetcher implements Runnable {
                         recordAllowRobots = re.get(new URL(url.getAddress()), USERAGENT);
                         escalonador.putRecorded(url.getAddress(), recordAllowRobots);
                     } catch (MalformedURLException ex) {
+                        escalonador.putBlackDominios(url);
                         Logger.getLogger(PageFetcher.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
                 if (recordAllowRobots.allows(url.getPath())) {
+//                    System.out.println(Thread.currentThread().getName() + " [TENTANDO] \t\t\t\t\t\t" + url.getAddress());
+
                     InputStream is = ColetorUtil.getUrlStream(USERAGENT, new URL(url.getAddress()));
                     String page = ColetorUtil.consumeStream(is);
                     HtmlCleaner hc = new HtmlCleaner();
                     TagNode tag = hc.clean(page);
                     TagNode[] urlNodes = tag.getElementsHavingAttribute("href", true);
-                    
                     for (int i = 0; i < urlNodes.length; i++) {
                         String urlToCollect = urlNodes[i].getAttributeByName("href");
+                        
                         urlToCollect = ColetorUtil.getAbsoluteURL(url, urlToCollect);
+
+                        if (ColetorUtil.excludeURL(urlToCollect))
+                            continue;
+                        
                         escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
                     }
                     
@@ -66,7 +73,7 @@ public class PageFetcher implements Runnable {
 
                 }
             } catch (Exception ex) {
-                System.out.println(Thread.currentThread().getName() + " [EXCECÃO] \t\t\t\t" + url.getAddress());
+                escalonador.putBlackDominios(url);
             }
         }
         System.out.println(Thread.currentThread().getName() + " [FINALIZADA]");

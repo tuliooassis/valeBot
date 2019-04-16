@@ -33,7 +33,7 @@ public class Servidor {
      *
      * @return
      */
-    public synchronized boolean isAccessible() {
+    public boolean isAccessible() {
         return this.getTimeSinceLastAcess() > this.ACESSO_MILIS;
     }
 

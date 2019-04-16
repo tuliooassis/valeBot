@@ -110,6 +110,7 @@ public class ColetorUtil {
         String join = "/";
         
         if (urlRelative.contains("#")) urlRelative = urlRelative.substring(0, urlRelative.indexOf("#")); 
+        if (urlRelative.contains("?")) urlRelative = urlRelative.substring(0, urlRelative.indexOf("?")); 
         
         while (urlRelative.endsWith("."))
             urlRelative = urlRelative.substring(0, urlRelative.lastIndexOf("."));
@@ -121,5 +122,16 @@ public class ColetorUtil {
 
         join = urlRelative.length() == 0 || urlRelative.startsWith(join) ? "" : join;
         return url.getProtocol() + "://" + url.getDomain() + join + urlRelative;
+    }
+    
+        
+    public static boolean excludeURL(String url){
+
+        if (url.endsWith(".png") || url.endsWith(".jpg") || 
+                url.endsWith(".jpeg") || url.endsWith(".ico") || 
+                url.endsWith(".css") || url.endsWith(".json"))
+            return true;
+        
+        return false;
     }
 }
