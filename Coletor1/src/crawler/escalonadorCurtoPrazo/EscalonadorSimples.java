@@ -59,28 +59,26 @@ public class EscalonadorSimples implements Escalonador {
     @Override
     public synchronized URLAddress getURL() {
         URLAddress url = null;
-
-        for (Servidor s : filaPaginas.keySet()) {
-            if (s.isAccessible() && !filaPaginas.get(s).isEmpty()) {
-                url = filaPaginas.get(s).removeFirst();
-                if (!paginasColetadas.get(new Servidor(url.getDomain())).contains(url)){
-                    s.acessadoAgora();
-                    return url;
-                }
-                else {
-                    return null;
-                }
-            }
-            else if (filaPaginas.get(s).isEmpty()){
-                try {
-                    System.out.println(Thread.currentThread().getName() + "[PARADA]");
-                    this.wait(Servidor.ACESSO_MILIS);
-                } catch (InterruptedException ex) {
-                    Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
-                }
+        LinkedHashMap<Servidor, LinkedList<URLAddress>> filaPaginasCopy;
+        filaPaginasCopy = (LinkedHashMap<Servidor, LinkedList<URLAddress>>) filaPaginas.clone();
+        
+        for (Servidor s : filaPaginasCopy.keySet()) {
+            if (s.isAccessible() && !filaPaginasCopy.get(s).isEmpty()) {
+                url = filaPaginasCopy.get(s).removeFirst();
+                s.acessadoAgora();
+                return url;
             }
         }
         
+        
+        try {
+            System.out.println(Thread.currentThread().getName() + " [PARADA]");
+            this.wait(Servidor.ACESSO_MILIS);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+
         return url;
     }
 
