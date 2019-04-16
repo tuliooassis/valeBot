@@ -74,7 +74,6 @@ public class EscalonadorSimples implements Escalonador {
         
         
         try {
-            System.out.println(Thread.currentThread().getName() + " [PARADA]");
             this.wait(Servidor.ACESSO_MILIS);
         } catch (InterruptedException ex) {
             Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);

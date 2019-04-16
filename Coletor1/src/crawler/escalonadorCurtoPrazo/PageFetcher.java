@@ -49,8 +49,6 @@ public class PageFetcher implements Runnable {
                     }
                 }
                 if (recordAllowRobots.allows(url.getPath())) {
-//                    System.out.println(Thread.currentThread().getName() + " [TENTANDO] \t\t\t\t\t\t" + url.getAddress());
-
                     InputStream is = ColetorUtil.getUrlStream(USERAGENT, new URL(url.getAddress()));
                     String page = ColetorUtil.consumeStream(is);
                     HtmlCleaner hc = new HtmlCleaner();
@@ -67,10 +65,9 @@ public class PageFetcher implements Runnable {
                         escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
                     }
                     
-                    System.out.println(Thread.currentThread().getName() + " [PAG CONSUMIDA]" + "\tCOUNT: " + escalonador.getCount() + "\tDEPTH: " + url.getDepth() + "\t" + url.getAddress());
-                    escalonador.putFetchedPage(url);
                     escalonador.countFetchedPage();
-
+                    escalonador.putFetchedPage(url);
+                    System.out.println(Thread.currentThread().getName() + " [PAG CONSUMIDA]" + "\tCOUNT: " + escalonador.getCount() + "\tDEPTH: " + url.getDepth() + "\t" + url.getAddress());
                 }
             } catch (Exception ex) {
                 escalonador.putBlackDominios(url);
