@@ -1,0 +1,631 @@
+run:
+Thread-0 [PAG CONSUMIDA]	COUNT: 1	DEPTH: 0	https://computerworld.com.br
+Thread-4 [PAG CONSUMIDA]	COUNT: 2	DEPTH: 0	https://www.soy502.com
+Thread-8 [PAG CONSUMIDA]	COUNT: 3	DEPTH: 0	https://www.pcworld.com
+log4j:WARN No appenders could be found for logger (com.trigonic.jrobotx.RobotExclusion).
+log4j:WARN Please initialize the log4j system properly.
+Thread-33 [PAG CONSUMIDA]	COUNT: 4	DEPTH: 1	http://instagram.com/soy_502
+Thread-7 [PAG CONSUMIDA]	COUNT: 5	DEPTH: 0	https://www.taringa.net
+Thread-64 [PAG CONSUMIDA]	COUNT: 6	DEPTH: 1	https://www.soy502.com/login
+Thread-18 [PAG CONSUMIDA]	COUNT: 7	DEPTH: 1	http://blog.idg.com
+Thread-36 [PAG CONSUMIDA]	COUNT: 8	DEPTH: 1	https://www.taringa.net/opensearch.xml
+Thread-59 [PAG CONSUMIDA]	COUNT: 9	DEPTH: 1	https://twitter.com/intent/tweet
+Thread-58 [PAG CONSUMIDA]	COUNT: 10	DEPTH: 1	http://videos.itmidia.com
+Thread-63 [PAG CONSUMIDA]	COUNT: 12	DEPTH: 1	https://www.itforum365.com.br
+Thread-3 [PAG CONSUMIDA]	COUNT: 12	DEPTH: 1	http://www.itforum.com.br
+Thread-49 [PAG CONSUMIDA]	COUNT: 13	DEPTH: 1	https://www.soy502.com/seccion/noticias
+Thread-68 [PAG CONSUMIDA]	COUNT: 14	DEPTH: 2	https://gmpg.org/xfn/11
+Thread-19 [PAG CONSUMIDA]	COUNT: 15	DEPTH: 1	https://www.techhive.com/article/3390296/primephonic-review.html
+Thread-40 [PAG CONSUMIDA]	COUNT: 16	DEPTH: 1	https://www.linkedin.com/showcase/computerworldbrasil
+Thread-54 [PAG CONSUMIDA]	COUNT: 17	DEPTH: 1	https://shop.pcworld.com
+Thread-69 [PAG CONSUMIDA]	COUNT: 18	DEPTH: 1	https://www.instagram.com/computerworldbrasil
+Thread-11 [PAG CONSUMIDA]	COUNT: 19	DEPTH: 1	https://www.pcworld.com/javascript:
+Thread-47 [PAG CONSUMIDA]	COUNT: 20	DEPTH: 1	https://www.pcworld.com/reviews
+Thread-20 [PAG CONSUMIDA]	COUNT: 21	DEPTH: 1	https://www.techhive.com/article/3390142/mysa-smart-thermostat-review.html
+Thread-62 [PAG CONSUMIDA]	COUNT: 22	DEPTH: 1	https://www.pcworld.com/news
+Thread-37 [PAG CONSUMIDA]	COUNT: 23	DEPTH: 1	https://plus.google.com/share
+Thread-9 [PAG CONSUMIDA]	COUNT: 24	DEPTH: 2	https://mkt.itmidia.com.br/quero-participar-como-cio-itforum
+Thread-39 [PAG CONSUMIDA]	COUNT: 25	DEPTH: 1	https://www.techhive.com/article/3390203/bowers-and-wilkins-formation-suite.html
+Thread-65 [PAG CONSUMIDA]	COUNT: 26	DEPTH: 2	https://www.linkedin.com/showcase/itforum
+Thread-26 [PAG CONSUMIDA]	COUNT: 27	DEPTH: 2	https://mkt.itmidia.com.br/quero-patrocinar-o-it-forum
+Thread-5 [PAG CONSUMIDA]	COUNT: 28	DEPTH: 0	https://indianexpress.com
+Thread-42 [PAG CONSUMIDA]	COUNT: 29	DEPTH: 2	https://ng.linkedin.com/showcase/computerworldbrasil
+Thread-3 [PAG CONSUMIDA]	COUNT: 30	DEPTH: 2	https://cl.linkedin.com/showcase/computerworldbrasil
+Thread-48 [PAG CONSUMIDA]	COUNT: 31	DEPTH: 2	https://cr.linkedin.com/showcase/computerworldbrasil
+Thread-61 [PAG CONSUMIDA]	COUNT: 32	DEPTH: 2	https://il.linkedin.com/showcase/computerworldbrasil
+Thread-37 [PAG CONSUMIDA]	COUNT: 33	DEPTH: 3	https://gmpg.org
+Thread-59 [PAG CONSUMIDA]	COUNT: 34	DEPTH: 2	https://cn.linkedin.com/showcase/computerworldbrasil
+Thread-12 [PAG CONSUMIDA]	COUNT: 35	DEPTH: 2	https://pt.linkedin.com/showcase/computerworldbrasil
+Thread-7 [PAG CONSUMIDA]	COUNT: 36	DEPTH: 2	https://www.linkedin.com/showcase/it-forum-365
+Thread-41 [PAG CONSUMIDA]	COUNT: 37	DEPTH: 2	https://ro.linkedin.com/showcase/computerworldbrasil
+Thread-24 [PAG CONSUMIDA]	COUNT: 38	DEPTH: 2	https://ae.linkedin.com/showcase/computerworldbrasil
+Thread-54 [PAG CONSUMIDA]	COUNT: 39	DEPTH: 2	https://cz.linkedin.com/showcase/computerworldbrasil
+Thread-32 [PAG CONSUMIDA]	COUNT: 40	DEPTH: 2	https://es.linkedin.com/showcase/computerworldbrasil
+Thread-43 [PAG CONSUMIDA]	COUNT: 41	DEPTH: 2	https://ec.linkedin.com/showcase/computerworldbrasil
+Thread-47 [PAG CONSUMIDA]	COUNT: 42	DEPTH: 2	https://tt.linkedin.com/showcase/computerworldbrasil
+Thread-16 [PAG CONSUMIDA]	COUNT: 43	DEPTH: 2	https://jp.linkedin.com/showcase/computerworldbrasil
+Thread-19 [PAG CONSUMIDA]	COUNT: 44	DEPTH: 2	https://do.linkedin.com/showcase/computerworldbrasil
+Thread-56 [PAG CONSUMIDA]	COUNT: 45	DEPTH: 2	https://kr.linkedin.com/showcase/computerworldbrasil
+Thread-9 [PAG CONSUMIDA]	COUNT: 46	DEPTH: 2	https://tw.linkedin.com/showcase/computerworldbrasil
+Thread-11 [PAG CONSUMIDA]	COUNT: 47	DEPTH: 2	https://pk.linkedin.com/showcase/computerworldbrasil
+Thread-2 [PAG CONSUMIDA]	COUNT: 48	DEPTH: 2	https://zw.linkedin.com/showcase/computerworldbrasil
+Thread-58 [PAG CONSUMIDA]	COUNT: 49	DEPTH: 2	https://www.instagram.com/static/bundles/metro/Vendor.js/b1dbf1d576e1.js
+Thread-0 [PAG CONSUMIDA]	COUNT: 50	DEPTH: 2	https://ch.linkedin.com/showcase/computerworldbrasil
+Thread-13 [PAG CONSUMIDA]	COUNT: 51	DEPTH: 2	https://bo.linkedin.com/showcase/computerworldbrasil
+Thread-4 [PAG CONSUMIDA]	COUNT: 52	DEPTH: 1	https://www.taringa.net/global
+Thread-68 [PAG CONSUMIDA]	COUNT: 53	DEPTH: 2	https://fr.linkedin.com/showcase/computerworldbrasil
+Thread-1 [PAG CONSUMIDA]	COUNT: 54	DEPTH: 2	https://my.linkedin.com/showcase/computerworldbrasil
+Thread-51 [PAG CONSUMIDA]	COUNT: 55	DEPTH: 1	https://itunes.apple.com/es/app/taringa!/id1180814939
+Thread-39 [PAG CONSUMIDA]	COUNT: 56	DEPTH: 2	https://hk.linkedin.com/showcase/computerworldbrasil
+Thread-4 [PAG CONSUMIDA]	COUNT: 57	DEPTH: 1	https://data.indianexpress.com
+Thread-26 [PAG CONSUMIDA]	COUNT: 58	DEPTH: 2	https://mx.linkedin.com/showcase/computerworldbrasil
+Thread-45 [PAG CONSUMIDA]	COUNT: 59	DEPTH: 2	https://nz.linkedin.com/showcase/computerworldbrasil
+Thread-35 [PAG CONSUMIDA]	COUNT: 60	DEPTH: 2	https://pe.linkedin.com/showcase/computerworldbrasil
+Thread-60 [PAG CONSUMIDA]	COUNT: 61	DEPTH: 2	https://twitter.com/home
+Thread-18 [PAG CONSUMIDA]	COUNT: 62	DEPTH: 2	https://sg.linkedin.com/showcase/computerworldbrasil
+Thread-69 [PAG CONSUMIDA]	COUNT: 63	DEPTH: 2	https://ph.linkedin.com/showcase/computerworldbrasil
+Thread-40 [PAG CONSUMIDA]	COUNT: 64	DEPTH: 2	https://at.linkedin.com/showcase/computerworldbrasil
+Thread-46 [PAG CONSUMIDA]	COUNT: 65	DEPTH: 2	https://no.linkedin.com/showcase/computerworldbrasil
+Thread-34 [PAG CONSUMIDA]	COUNT: 66	DEPTH: 2	https://id.linkedin.com/showcase/computerworldbrasil
+Thread-49 [PAG CONSUMIDA]	COUNT: 67	DEPTH: 2	https://gh.linkedin.com/showcase/computerworldbrasil
+Thread-17 [PAG CONSUMIDA]	COUNT: 69	DEPTH: 2	https://ru.linkedin.com/showcase/computerworldbrasil
+Thread-57 [PAG CONSUMIDA]	COUNT: 70	DEPTH: 2	https://ke.linkedin.com/showcase/computerworldbrasil
+Thread-30 [PAG CONSUMIDA]	COUNT: 71	DEPTH: 2	https://in.linkedin.com/showcase/computerworldbrasil
+Thread-10 [PAG CONSUMIDA]	COUNT: 72	DEPTH: 2	https://ie.linkedin.com/showcase/computerworldbrasil
+Thread-66 [PAG CONSUMIDA]	COUNT: 73	DEPTH: 2	https://de.linkedin.com/showcase/computerworldbrasil
+Thread-62 [PAG CONSUMIDA]	COUNT: 74	DEPTH: 2	https://uy.linkedin.com/showcase/computerworldbrasil
+Thread-29 [PAG CONSUMIDA]	COUNT: 74	DEPTH: 2	https://jm.linkedin.com/showcase/computerworldbrasil
+Thread-33 [PAG CONSUMIDA]	COUNT: 75	DEPTH: 2	https://za.linkedin.com/showcase/computerworldbrasil
+Thread-23 [PAG CONSUMIDA]	COUNT: 76	DEPTH: 2	https://gt.linkedin.com/showcase/computerworldbrasil
+Thread-28 [PAG CONSUMIDA]	COUNT: 77	DEPTH: 2	https://pa.linkedin.com/showcase/computerworldbrasil
+Thread-21 [PAG CONSUMIDA]	COUNT: 78	DEPTH: 2	https://ca.linkedin.com/showcase/computerworldbrasil
+Thread-14 [PAG CONSUMIDA]	COUNT: 79	DEPTH: 2	https://pr.linkedin.com/showcase/computerworldbrasil
+Thread-36 [PAG CONSUMIDA]	COUNT: 80	DEPTH: 2	https://nl.linkedin.com/showcase/computerworldbrasil
+Thread-25 [PAG CONSUMIDA]	COUNT: 81	DEPTH: 2	https://au.linkedin.com/showcase/computerworldbrasil
+Thread-64 [PAG CONSUMIDA]	COUNT: 82	DEPTH: 2	https://se.linkedin.com/showcase/computerworldbrasil
+Thread-50 [PAG CONSUMIDA]	COUNT: 83	DEPTH: 2	https://sv.linkedin.com/showcase/computerworldbrasil
+Thread-55 [PAG CONSUMIDA]	COUNT: 84	DEPTH: 2	https://it.linkedin.com/showcase/computerworldbrasil
+Thread-63 [PAG CONSUMIDA]	COUNT: 85	DEPTH: 2	https://itforum365.com.br
+Thread-8 [PAG CONSUMIDA]	COUNT: 86	DEPTH: 2	https://co.linkedin.com/showcase/computerworldbrasil
+Thread-5 [PAG CONSUMIDA]	COUNT: 87	DEPTH: 2	https://ar.linkedin.com/showcase/computerworldbrasil
+Thread-65 [PAG CONSUMIDA]	COUNT: 88	DEPTH: 2	https://ve.linkedin.com/showcase/computerworldbrasil
+Thread-32 [PAG CONSUMIDA]	COUNT: 89	DEPTH: 2	https://pl.linkedin.com/showcase/computerworldbrasil
+Thread-61 [PAG CONSUMIDA]	COUNT: 90	DEPTH: 3	http://www.w3.org/TR/html401/struct/global.html
+Thread-3 [PAG CONSUMIDA]	COUNT: 91	DEPTH: 3	http://photomatt.net
+Thread-15 [PAG CONSUMIDA]	COUNT: 92	DEPTH: 2	https://www.youtube.com/user/itmweb
+Thread-11 [PAG CONSUMIDA]	COUNT: 93	DEPTH: 2	https://support.stackcommerce.com/hc/en-us/requests/new
+Thread-22 [PAG CONSUMIDA]	COUNT: 94	DEPTH: 1	https://twitter.com/pcworld
+Thread-24 [PAG CONSUMIDA]	COUNT: 95	DEPTH: 2	https://dk.linkedin.com/showcase/computerworldbrasil
+Thread-54 [PAG CONSUMIDA]	COUNT: 96	DEPTH: 2	https://lu.linkedin.com/showcase/computerworldbrasil
+Thread-41 [PAG CONSUMIDA]	COUNT: 97	DEPTH: 2	https://th.linkedin.com/showcase/computerworldbrasil
+Thread-12 [PAG CONSUMIDA]	COUNT: 98	DEPTH: 2	https://shop.techhive.com
+Thread-43 [PAG CONSUMIDA]	COUNT: 99	DEPTH: 2	https://tr.linkedin.com/showcase/computerworldbrasil
+Thread-66 [PAG CONSUMIDA]	COUNT: 100	DEPTH: 2	https://accounts.google.com/signin/usernamerecovery
+Thread-46 [PAG CONSUMIDA]	COUNT: 101	DEPTH: 3	https://au.linkedin.com/showcase/itforum
+Thread-17 [PAG CONSUMIDA]	COUNT: 102	DEPTH: 3	https://ch.linkedin.com/showcase/itforum
+Thread-4 [PAG CONSUMIDA]	COUNT: 103	DEPTH: 3	https://de.linkedin.com/showcase/itforum
+Thread-34 [PAG CONSUMIDA]	COUNT: 104	DEPTH: 3	https://id.linkedin.com/showcase/itforum
+Thread-13 [PAG CONSUMIDA]	COUNT: 105	DEPTH: 1	https://www.google.com
+Thread-62 [PAG CONSUMIDA]	COUNT: 106	DEPTH: 3	https://sv.linkedin.com/showcase/itforum
+Thread-30 [PAG CONSUMIDA]	COUNT: 107	DEPTH: 3	https://jm.linkedin.com/showcase/itforum
+Thread-60 [PAG CONSUMIDA]	COUNT: 108	DEPTH: 3	https://my.linkedin.com/showcase/itforum
+Thread-48 [PAG CONSUMIDA]	COUNT: 109	DEPTH: 1	https://images.indianexpress.com
+Thread-49 [PAG CONSUMIDA]	COUNT: 110	DEPTH: 3	https://ng.linkedin.com/showcase/itforum
+Thread-18 [PAG CONSUMIDA]	COUNT: 111	DEPTH: 3	https://in.linkedin.com/showcase/itforum
+Thread-47 [PAG CONSUMIDA]	COUNT: 112	DEPTH: 3	https://ie.linkedin.com/showcase/itforum
+Thread-40 [PAG CONSUMIDA]	COUNT: 113	DEPTH: 3	https://cn.linkedin.com/showcase/itforum
+Thread-57 [PAG CONSUMIDA]	COUNT: 114	DEPTH: 3	https://zw.linkedin.com/showcase/itforum
+Thread-45 [PAG CONSUMIDA]	COUNT: 115	DEPTH: 3	https://bo.linkedin.com/showcase/itforum
+Thread-69 [PAG CONSUMIDA]	COUNT: 116	DEPTH: 3	https://za.linkedin.com/showcase/itforum
+Thread-52 [PAG CONSUMIDA]	COUNT: 117	DEPTH: 1	https://www.twitter.com/soy_502
+Thread-23 [PAG CONSUMIDA]	COUNT: 118	DEPTH: 3	https://co.linkedin.com/showcase/itforum
+Thread-0 [PAG CONSUMIDA]	COUNT: 119	DEPTH: 2	https://www.stackcommerce.com/vendors
+Thread-55 [PAG CONSUMIDA]	COUNT: 120	DEPTH: 3	https://gt.linkedin.com/showcase/itforum
+Thread-36 [PAG CONSUMIDA]	COUNT: 121	DEPTH: 1	https://code.jquery.com
+Thread-5 [PAG CONSUMIDA]	COUNT: 122	DEPTH: 1	http://expressgroup.indianexpress.com
+Thread-68 [PAG CONSUMIDA]	COUNT: 123	DEPTH: 3	http://mkt.itmidia.com.br/quero-participar-como-cio-itforum
+Thread-20 [PAG CONSUMIDA]	COUNT: 124	DEPTH: 1	http://www.youtube.com/IndianExpress
+Thread-15 [PAG CONSUMIDA]	COUNT: 125	DEPTH: 3	https://mobile.twitter.com/session/new
+Thread-1 [PAG CONSUMIDA]	COUNT: 126	DEPTH: 3	https://ae.linkedin.com/showcase/itforum
+Thread-61 [PAG CONSUMIDA]	COUNT: 127	DEPTH: 1	https://plus.google.com/+indianexpress
+Thread-40 [PAG CONSUMIDA]	COUNT: 128	DEPTH: 3	https://se.linkedin.com/showcase/itforum
+Thread-8 [PAG CONSUMIDA]	COUNT: 129	DEPTH: 3	https://at.linkedin.com/showcase/itforum
+Thread-56 [PAG CONSUMIDA]	COUNT: 130	DEPTH: 1	https://s0.wp.com
+Thread-4 [PAG CONSUMIDA]	COUNT: 131	DEPTH: 3	https://nl.linkedin.com/showcase/itforum
+Thread-39 [PAG CONSUMIDA]	COUNT: 132	DEPTH: 2	https://www.sinopetech.com/en/products/lighting
+Thread-27 [PAG CONSUMIDA]	COUNT: 133	DEPTH: 1	https://twitter.com/computerworldbr
+Thread-47 [PAG CONSUMIDA]	COUNT: 134	DEPTH: 3	https://pk.linkedin.com/showcase/itforum
+Thread-59 [PAG CONSUMIDA]	COUNT: 135	DEPTH: 1	https://stats.g.doubleclick.net
+Thread-0 [PAG CONSUMIDA]	COUNT: 136	DEPTH: 3	https://ssl.gstatic.com/accounts/static/_/ss/k=gaia.gaiafe_signin.3ce9s7BKui4.L.X.O/am=AAQAEAAIAAAgCA/d=0/rs=ABkqax3oG-RFLzMBtv1M1ad8Sok8DqNr4g
+Thread-66 [PAG CONSUMIDA]	COUNT: 137	DEPTH: 3	https://jp.linkedin.com/showcase/itforum
+Thread-28 [PAG CONSUMIDA]	COUNT: 138	DEPTH: 2	https://www.apple.com/es/ios/app-store
+Thread-9 [PAG CONSUMIDA]	COUNT: 139	DEPTH: 1	https://s1.wp.com
+Thread-41 [PAG CONSUMIDA]	COUNT: 140	DEPTH: 3	https://es.linkedin.com/showcase/itforum
+Thread-50 [PAG CONSUMIDA]	COUNT: 141	DEPTH: 3	https://nz.linkedin.com/showcase/itforum
+Thread-63 [PAG CONSUMIDA]	COUNT: 142	DEPTH: 1	https://www.google-analytics.com
+Thread-29 [PAG CONSUMIDA]	COUNT: 143	DEPTH: 3	https://www.google.com.br/intl/pt-BR/policies/privacy
+Thread-42 [PAG CONSUMIDA]	COUNT: 144	DEPTH: 2	https://www.bbb.org/losangelessiliconvalley/business-reviews/online-retailer/stackcommerce-in-venice-ca-1013267
+Thread-1 [PAG CONSUMIDA]	COUNT: 145	DEPTH: 2	https://mail.google.com/mail
+Thread-26 [PAG CONSUMIDA]	COUNT: 146	DEPTH: 3	https://pt.linkedin.com/showcase/itforum
+Thread-46 [PAG CONSUMIDA]	COUNT: 147	DEPTH: 3	https://sg.linkedin.com/showcase/itforum
+Thread-3 [PAG CONSUMIDA]	COUNT: 148	DEPTH: 3	https://pe.linkedin.com/showcase/itforum
+Thread-57 [PAG CONSUMIDA]	COUNT: 149	DEPTH: 3	https://kr.linkedin.com/showcase/itforum
+Thread-24 [PAG CONSUMIDA]	COUNT: 150	DEPTH: 2	https://www.srihash.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 151	DEPTH: 3	https://ro.linkedin.com/showcase/itforum
+Thread-64 [PAG CONSUMIDA]	COUNT: 152	DEPTH: 3	https://ec.linkedin.com/showcase/itforum
+Thread-16 [PAG CONSUMIDA]	COUNT: 153	DEPTH: 3	https://fr.linkedin.com/showcase/itforum
+Thread-10 [PAG CONSUMIDA]	COUNT: 154	DEPTH: 1	https://bengali.indianexpress.com
+Thread-65 [PAG CONSUMIDA]	COUNT: 155	DEPTH: 3	https://it.linkedin.com/showcase/itforum
+Thread-0 [PAG CONSUMIDA]	COUNT: 156	DEPTH: 3	https://www.stackcommerce.com
+Thread-69 [PAG CONSUMIDA]	COUNT: 157	DEPTH: 2	https://youtu.be/7wnis0OCy8I
+Thread-36 [PAG CONSUMIDA]	COUNT: 158	DEPTH: 3	https://myaccount.google.com
+Thread-21 [PAG CONSUMIDA]	COUNT: 159	DEPTH: 2	https://support.apple.com/es-es
+Thread-41 [PAG CONSUMIDA]	COUNT: 161	DEPTH: 3	https://stackcommerce.zendesk.com/hc/en-us/sections/201996096-Skillwise-Instructor-FAQ
+Thread-51 [PAG CONSUMIDA]	COUNT: 162	DEPTH: 1	https://malayalam.indianexpress.com
+Thread-4 [PAG CONSUMIDA]	COUNT: 163	DEPTH: 2	https://qunitjs.com
+Thread-49 [PAG CONSUMIDA]	COUNT: 164	DEPTH: 3	https://cz.linkedin.com/showcase/itforum
+Thread-33 [PAG CONSUMIDA]	COUNT: 165	DEPTH: 3	https://tt.linkedin.com/showcase/itforum
+Thread-48 [PAG CONSUMIDA]	COUNT: 166	DEPTH: 3	https://do.linkedin.com/showcase/itforum
+Thread-30 [PAG CONSUMIDA]	COUNT: 167	DEPTH: 3	https://ru.linkedin.com/showcase/itforum
+Thread-67 [PAG CONSUMIDA]	COUNT: 168	DEPTH: 1	https://www.facebook.com/ComputerworldBR
+Thread-13 [PAG CONSUMIDA]	COUNT: 169	DEPTH: 3	https://no.linkedin.com/showcase/itforum
+Thread-37 [PAG CONSUMIDA]	COUNT: 170	DEPTH: 3	https://pr.linkedin.com/showcase/itforum
+Thread-32 [PAG CONSUMIDA]	COUNT: 171	DEPTH: 3	https://pa.linkedin.com/showcase/itforum
+Thread-20 [PAG CONSUMIDA]	COUNT: 172	DEPTH: 2	https://www.stackpath.com
+Thread-12 [PAG CONSUMIDA]	COUNT: 173	DEPTH: 1	https://api.nextgen.guardianapps.co.uk
+Thread-44 [PAG CONSUMIDA]	COUNT: 174	DEPTH: 1	https://flipboard.com/@itmidia/computerworld-elg5m99pz
+Thread-52 [PAG CONSUMIDA]	COUNT: 175	DEPTH: 2	https://maps.google.com.br/maps
+Thread-22 [PAG CONSUMIDA]	COUNT: 175	DEPTH: 3	https://cr.linkedin.com/showcase/itforum
+Thread-35 [PAG CONSUMIDA]	COUNT: 176	DEPTH: 3	https://il.linkedin.com/showcase/itforum
+Thread-54 [PAG CONSUMIDA]	COUNT: 177	DEPTH: 3	https://cl.linkedin.com/showcase/itforum
+Thread-14 [PAG CONSUMIDA]	COUNT: 178	DEPTH: 1	https://tamil.indianexpress.com
+Thread-60 [PAG CONSUMIDA]	COUNT: 179	DEPTH: 3	https://gh.linkedin.com/showcase/itforum
+Thread-34 [PAG CONSUMIDA]	COUNT: 180	DEPTH: 3	https://ke.linkedin.com/showcase/itforum
+Thread-19 [PAG CONSUMIDA]	COUNT: 181	DEPTH: 2	https://vip.wordpress.com
+Thread-62 [PAG CONSUMIDA]	COUNT: 182	DEPTH: 3	https://ca.linkedin.com/showcase/itforum
+Thread-18 [PAG CONSUMIDA]	COUNT: 183	DEPTH: 3	https://ph.linkedin.com/showcase/itforum
+Thread-1 [PAG CONSUMIDA]	COUNT: 184	DEPTH: 2	https://wordpress.com/start/pt-br
+Thread-2 [PAG CONSUMIDA]	COUNT: 185	DEPTH: 2	https://br.support.wordpress.com
+Thread-31 [PAG CONSUMIDA]	COUNT: 186	DEPTH: 1	https://www.youtube.com/user/PCWorldVideos
+Thread-23 [PAG CONSUMIDA]	COUNT: 187	DEPTH: 3	https://m.youtube.com/user/itmweb
+Thread-6 [PAG CONSUMIDA]	COUNT: 188	DEPTH: 0	https://www.theguardian.com
+Thread-25 [PAG CONSUMIDA]	COUNT: 189	DEPTH: 1	https://www.jansatta.com
+Thread-58 [PAG CONSUMIDA]	COUNT: 190	DEPTH: 1	https://www.financialexpress.com/elections
+Thread-17 [PAG CONSUMIDA]	COUNT: 191	DEPTH: 2	https://www.blog.google/products/marketingplatform
+Thread-49 [PAG CONSUMIDA]	COUNT: 192	DEPTH: 2	https://developer.wordpress.com
+Thread-46 [PAG CONSUMIDA]	COUNT: 193	DEPTH: 2	https://marketingplatform.google.com/about/analytics
+Thread-2 [PAG CONSUMIDA]	COUNT: 194	DEPTH: 2	https://landing.google.com/academyforads
+Thread-48 [PAG CONSUMIDA]	COUNT: 195	DEPTH: 2	https://apps.wordpress.org/desktop
+Thread-34 [PAG CONSUMIDA]	COUNT: 196	DEPTH: 2	https://m.facebook.com/ComputerworldBR
+Thread-8 [PAG CONSUMIDA]	COUNT: 197	DEPTH: 2	https://br.jetpack.com
+Thread-68 [PAG CONSUMIDA]	COUNT: 198	DEPTH: 2	https://central.wordcamp.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 199	DEPTH: 2	https://developers.google.com/analytics
+Thread-62 [PAG CONSUMIDA]	COUNT: 200	DEPTH: 2	https://wordpress.org
+Thread-18 [PAG CONSUMIDA]	COUNT: 201	DEPTH: 2	https://automattic.com/privacy
+Thread-31 [PAG CONSUMIDA]	COUNT: 202	DEPTH: 2	https://www.yourprimer.com
+Thread-47 [PAG CONSUMIDA]	COUNT: 203	DEPTH: 2	https://www.syncfusion.com/ebooks/jquery
+Thread-19 [PAG CONSUMIDA]	COUNT: 204	DEPTH: 2	https://br.forums.wordpress.com
+Thread-58 [PAG CONSUMIDA]	COUNT: 205	DEPTH: 2	https://admanager.google.com/home
+Thread-42 [PAG CONSUMIDA]	COUNT: 206	DEPTH: 2	https://br.wordpress.com
+Thread-34 [PAG CONSUMIDA]	COUNT: 207	DEPTH: 3	https://cbbb.sc.omtrdc.net
+Thread-16 [PAG CONSUMIDA]	COUNT: 208	DEPTH: 2	https://woocommerce.com
+Thread-66 [PAG CONSUMIDA]	COUNT: 209	DEPTH: 2	https://br.blog.wordpress.com/feed
+Thread-45 [PAG CONSUMIDA]	COUNT: 210	DEPTH: 2	https://github.com/jquery
+Thread-17 [PAG CONSUMIDA]	COUNT: 211	DEPTH: 2	https://www.thinkwithgoogle.com
+Thread-23 [PAG CONSUMIDA]	COUNT: 212	DEPTH: 2	https://gsuite.google.com
+Thread-25 [PAG CONSUMIDA]	COUNT: 213	DEPTH: 2	https://firebase.google.com
+Thread-18 [PAG CONSUMIDA]	COUNT: 214	DEPTH: 1	https://profile.theguardian.com/signin
+Thread-11 [PAG CONSUMIDA]	COUNT: 215	DEPTH: 2	https://forum.jquery.com
+Thread-46 [PAG CONSUMIDA]	COUNT: 216	DEPTH: 4	https://stackcommerce.zendesk.com/hc/en-us
+Thread-48 [PAG CONSUMIDA]	COUNT: 217	DEPTH: 3	https://www.bbb.org/us/ca/venice/profile/online-retailer/stackcommerce-1216-1013267
+Thread-66 [PAG CONSUMIDA]	COUNT: 218	DEPTH: 3	https://yarnpkg.com/en/package/qunit
+Thread-25 [PAG CONSUMIDA]	COUNT: 219	DEPTH: 3	https://gitter.im/qunitjs/qunit
+Thread-34 [PAG CONSUMIDA]	COUNT: 220	DEPTH: 3	https://www.tddjs.com
+Thread-23 [PAG CONSUMIDA]	COUNT: 221	DEPTH: 2	https://flipboard.com/join
+Thread-42 [PAG CONSUMIDA]	COUNT: 222	DEPTH: 3	https://support.apple.com/hu-hu
+Thread-6 [PAG CONSUMIDA]	COUNT: 223	DEPTH: 3	https://npmjs.org/package/qunit
+Thread-1 [PAG CONSUMIDA]	COUNT: 224	DEPTH: 2	https://ma.tt
+Thread-62 [PAG CONSUMIDA]	COUNT: 225	DEPTH: 1	https://jobs.theguardian.com
+Thread-28 [PAG CONSUMIDA]	COUNT: 226	DEPTH: 1	https://www.google.co.uk/advanced_search
+Thread-9 [PAG CONSUMIDA]	COUNT: 227	DEPTH: 2	https://cloud.google.com
+Thread-8 [PAG CONSUMIDA]	COUNT: 228	DEPTH: 2	https://www.jansatta.com/page/2
+Thread-19 [PAG CONSUMIDA]	COUNT: 229	DEPTH: 3	https://maps.google.com.br/maps/preview/opensearch.xml
+Thread-45 [PAG CONSUMIDA]	COUNT: 230	DEPTH: 3	https://developer.mozilla.org/docs/Web/Security/Subresource_Integrity
+Thread-48 [PAG CONSUMIDA]	COUNT: 231	DEPTH: 1	https://holidays.theguardian.com
+Thread-2 [PAG CONSUMIDA]	COUNT: 232	DEPTH: 1	https://support.theguardian.com/contribute
+Thread-27 [PAG CONSUMIDA]	COUNT: 233	DEPTH: 2	https://www.packtpub.com/web-development/learning-jquery-fourth-edition
+Thread-25 [PAG CONSUMIDA]	COUNT: 234	DEPTH: 3	https://s2.wp.com/_static
+Thread-19 [PAG CONSUMIDA]	COUNT: 235	DEPTH: 2	https://about.flipboard.com
+Thread-63 [PAG CONSUMIDA]	COUNT: 236	DEPTH: 1	https://soulmates.theguardian.com
+Thread-17 [PAG CONSUMIDA]	COUNT: 237	DEPTH: 3	https://forum.jquery.com/qunit-and-testing
+Thread-68 [PAG CONSUMIDA]	COUNT: 238	DEPTH: 3	https://github.com/qunitjs/qunit/tree/master/test
+Thread-1 [PAG CONSUMIDA]	COUNT: 239	DEPTH: 3	https://communities.apple.com/es
+Thread-46 [PAG CONSUMIDA]	COUNT: 240	DEPTH: 2	https://www.techook.com
+Thread-2 [PAG CONSUMIDA]	COUNT: 241	DEPTH: 3	https://es.support.wordpress.com
+Thread-23 [PAG CONSUMIDA]	COUNT: 242	DEPTH: 2	https://www.ietamil.com
+Thread-66 [PAG CONSUMIDA]	COUNT: 243	DEPTH: 3	https://fr.support.wordpress.com
+Thread-8 [PAG CONSUMIDA]	COUNT: 244	DEPTH: 3	https://zh-tw.support.wordpress.com
+Thread-63 [PAG CONSUMIDA]	COUNT: 245	DEPTH: 3	https://tr.support.wordpress.com
+Thread-45 [PAG CONSUMIDA]	COUNT: 246	DEPTH: 3	https://de.support.wordpress.com
+Thread-17 [PAG CONSUMIDA]	COUNT: 248	DEPTH: 3	https://zh-cn.support.wordpress.com
+Thread-48 [PAG CONSUMIDA]	COUNT: 248	DEPTH: 3	https://it.support.wordpress.com
+Thread-58 [PAG CONSUMIDA]	COUNT: 249	DEPTH: 3	https://ru.support.wordpress.com
+Thread-25 [PAG CONSUMIDA]	COUNT: 250	DEPTH: 3	https://nl.support.wordpress.com
+Thread-49 [PAG CONSUMIDA]	COUNT: 251	DEPTH: 3	https://hostingjournalist.com/cdn-hosting/stackpath-partners-with-sectigo-to-offer-free-private-ssl-certificates
+Thread-31 [PAG CONSUMIDA]	COUNT: 252	DEPTH: 3	https://ja.support.wordpress.com
+Thread-27 [PAG CONSUMIDA]	COUNT: 253	DEPTH: 3	https://ar.support.wordpress.com
+Thread-19 [PAG CONSUMIDA]	COUNT: 254	DEPTH: 3	https://id.support.wordpress.com
+Thread-42 [PAG CONSUMIDA]	COUNT: 255	DEPTH: 2	https://www.iemalayalam.com
+Thread-28 [PAG CONSUMIDA]	COUNT: 256	DEPTH: 1	https://open.spotify.com/show/2cSQmzYnf6LyrN0Mi6E64p
+Thread-62 [PAG CONSUMIDA]	COUNT: 257	DEPTH: 3	https://he.support.wordpress.com
+Thread-68 [PAG CONSUMIDA]	COUNT: 258	DEPTH: 3	https://sv.support.wordpress.com
+Thread-9 [PAG CONSUMIDA]	COUNT: 259	DEPTH: 2	https://iemalayalam.com
+Thread-47 [PAG CONSUMIDA]	COUNT: 260	DEPTH: 3	https://blog.stackpath.com/how-to-shift-your-containers-to-save-434ms-when-accessing-your-app-data
+Thread-46 [PAG CONSUMIDA]	COUNT: 261	DEPTH: 1	https://www.soy502.com/articulo/piscina-desploma-edificio-tras-terremoto-filipinas-24039
+Thread-23 [PAG CONSUMIDA]	COUNT: 262	DEPTH: 3	https://ko.support.wordpress.com
+Thread-34 [PAG CONSUMIDA]	COUNT: 263	DEPTH: 2	https://www.inuth.com
+Thread-11 [PAG CONSUMIDA]	COUNT: 264	DEPTH: 3	https://www.packtpub.com/application-development/instant-testing-qunit-instant
+Thread-6 [PAG CONSUMIDA]	COUNT: 265	DEPTH: 1	https://computerworld.com.br/2018/01/09/5-obstaculos-para-adocao-do-blockchain
+Thread-16 [PAG CONSUMIDA]	COUNT: 266	DEPTH: 1	https://www.pcworld.com/howto
+Thread-63 [PAG CONSUMIDA]	COUNT: 267	DEPTH: 1	https://www.taringa.net/explore
+Thread-49 [PAG CONSUMIDA]	COUNT: 268	DEPTH: 2	https://twitter.com/signup
+Thread-25 [PAG CONSUMIDA]	COUNT: 269	DEPTH: 2	http://www.itforum.com.br/wp-json
+Thread-31 [PAG CONSUMIDA]	COUNT: 270	DEPTH: 2	https://itforum365.com.br/todas-materias
+Thread-27 [PAG CONSUMIDA]	COUNT: 271	DEPTH: 2	https://shop.pcworld.com/newest-sales
+Thread-47 [PAG CONSUMIDA]	COUNT: 272	DEPTH: 3	https://uy.linkedin.com/showcase/itforum
+Thread-23 [PAG CONSUMIDA]	COUNT: 273	DEPTH: 3	https://mx.linkedin.com/showcase/itforum
+Thread-8 [PAG CONSUMIDA]	COUNT: 274	DEPTH: 3	https://store.wordpress.com
+Thread-27 [PAG CONSUMIDA]	COUNT: 275	DEPTH: 2	https://www.linkedin.com/uas/login
+Thread-19 [PAG CONSUMIDA]	COUNT: 276	DEPTH: 3	https://tw.linkedin.com/showcase/itforum
+Thread-47 [PAG CONSUMIDA]	COUNT: 277	DEPTH: 1	https://s1.wp.com/_static
+Thread-31 [PAG CONSUMIDA]	COUNT: 278	DEPTH: 3	https://tr.linkedin.com/showcase/itforum
+Thread-49 [PAG CONSUMIDA]	COUNT: 279	DEPTH: 3	https://lu.linkedin.com/showcase/itforum
+Thread-66 [PAG CONSUMIDA]	COUNT: 280	DEPTH: 3	https://dk.linkedin.com/showcase/itforum
+Thread-25 [PAG CONSUMIDA]	COUNT: 281	DEPTH: 3	https://pl.linkedin.com/showcase/itforum
+Thread-16 [PAG CONSUMIDA]	COUNT: 282	DEPTH: 3	https://ary.wordpress.org
+Thread-34 [PAG CONSUMIDA]	COUNT: 283	DEPTH: 3	https://ar.linkedin.com/showcase/itforum
+Thread-46 [PAG CONSUMIDA]	COUNT: 284	DEPTH: 3	https://ve.linkedin.com/showcase/itforum
+Thread-45 [PAG CONSUMIDA]	COUNT: 285	DEPTH: 2	https://www.instagram.com/itforum365
+Thread-48 [PAG CONSUMIDA]	COUNT: 286	DEPTH: 1	https://indianexpress.com//instagram.com
+Thread-23 [PAG CONSUMIDA]	COUNT: 287	DEPTH: 2	https://support.stackcommerce.com/hc/en-us
+Thread-68 [PAG CONSUMIDA]	COUNT: 289	DEPTH: 3	https://af.wordpress.org
+Thread-58 [PAG CONSUMIDA]	COUNT: 288	DEPTH: 3	https://th.linkedin.com/showcase/itforum
+Thread-62 [PAG CONSUMIDA]	COUNT: 290	DEPTH: 3	https://ar.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 291	DEPTH: 3	https://hk.linkedin.com/showcase/itforum
+Thread-9 [PAG CONSUMIDA]	COUNT: 292	DEPTH: 3	https://am.wordpress.org
+Thread-8 [PAG CONSUMIDA]	COUNT: 293	DEPTH: 1	https://data.indianexpress.com/rally-tracker
+Thread-11 [PAG CONSUMIDA]	COUNT: 294	DEPTH: 3	https://arq.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 295	DEPTH: 3	https://as.wordpress.org
+Thread-1 [PAG CONSUMIDA]	COUNT: 296	DEPTH: 3	https://ak.wordpress.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 297	DEPTH: 3	https://emoji.wordpress.org
+Thread-63 [PAG CONSUMIDA]	COUNT: 298	DEPTH: 3	https://ast.wordpress.org
+Thread-42 [PAG CONSUMIDA]	COUNT: 299	DEPTH: 3	http://www.w3.org/TR/html401/struct/links.html
+Thread-18 [PAG CONSUMIDA]	COUNT: 300	DEPTH: 2	https://financialexpress.com
+Thread-15 [PAG CONSUMIDA]	COUNT: 301	DEPTH: 2	https://news.google.com.br/nwshp
+Thread-25 [PAG CONSUMIDA]	COUNT: 302	DEPTH: 3	https://in.linkedin.com/showcase/it-forum-365
+Thread-47 [PAG CONSUMIDA]	COUNT: 303	DEPTH: 3	https://ie.linkedin.com/showcase/it-forum-365
+Thread-31 [PAG CONSUMIDA]	COUNT: 304	DEPTH: 3	https://pt.linkedin.com/showcase/it-forum-365
+Thread-16 [PAG CONSUMIDA]	COUNT: 305	DEPTH: 3	https://bo.linkedin.com/showcase/it-forum-365
+Thread-19 [PAG CONSUMIDA]	COUNT: 306	DEPTH: 3	https://de.linkedin.com/showcase/it-forum-365
+Thread-34 [PAG CONSUMIDA]	COUNT: 307	DEPTH: 3	https://za.linkedin.com/showcase/it-forum-365
+Thread-48 [PAG CONSUMIDA]	COUNT: 308	DEPTH: 3	https://id.linkedin.com/showcase/it-forum-365
+Thread-45 [PAG CONSUMIDA]	COUNT: 309	DEPTH: 3	https://au.linkedin.com/showcase/it-forum-365
+Thread-18 [PAG CONSUMIDA]	COUNT: 310	DEPTH: 3	https://pe.linkedin.com/showcase/it-forum-365
+Thread-66 [PAG CONSUMIDA]	COUNT: 311	DEPTH: 3	https://my.linkedin.com/showcase/it-forum-365
+Thread-8 [PAG CONSUMIDA]	COUNT: 312	DEPTH: 2	https://www.google.com/intl/pt/about
+Thread-28 [PAG CONSUMIDA]	COUNT: 313	DEPTH: 2	https://accounts.google.com/AccountChooser
+Thread-46 [PAG CONSUMIDA]	COUNT: 314	DEPTH: 3	http://mkt.itmidia.com.br/quero-patrocinar-o-it-forum
+Thread-11 [PAG CONSUMIDA]	COUNT: 315	DEPTH: 3	https://gt.linkedin.com/showcase/it-forum-365
+Thread-1 [PAG CONSUMIDA]	COUNT: 316	DEPTH: 3	https://it.linkedin.com/showcase/it-forum-365
+Thread-58 [PAG CONSUMIDA]	COUNT: 317	DEPTH: 3	https://zw.linkedin.com/showcase/it-forum-365
+Thread-15 [PAG CONSUMIDA]	COUNT: 318	DEPTH: 3	https://ae.linkedin.com/showcase/it-forum-365
+Thread-23 [PAG CONSUMIDA]	COUNT: 319	DEPTH: 3	https://ch.linkedin.com/showcase/it-forum-365
+Thread-62 [PAG CONSUMIDA]	COUNT: 320	DEPTH: 3	https://jm.linkedin.com/showcase/it-forum-365
+Thread-49 [PAG CONSUMIDA]	COUNT: 321	DEPTH: 3	https://co.linkedin.com/showcase/it-forum-365
+Thread-9 [PAG CONSUMIDA]	COUNT: 323	DEPTH: 3	https://sv.linkedin.com/showcase/it-forum-365
+Thread-42 [PAG CONSUMIDA]	COUNT: 323	DEPTH: 3	https://plus.google.com/116427719004427768044
+Thread-63 [PAG CONSUMIDA]	COUNT: 324	DEPTH: 3	https://es.linkedin.com/showcase/it-forum-365
+Thread-27 [PAG CONSUMIDA]	COUNT: 325	DEPTH: 3	https://nz.linkedin.com/showcase/it-forum-365
+Thread-2 [PAG CONSUMIDA]	COUNT: 326	DEPTH: 3	https://jp.linkedin.com/showcase/it-forum-365
+Thread-68 [PAG CONSUMIDA]	COUNT: 327	DEPTH: 3	https://sg.linkedin.com/showcase/it-forum-365
+Thread-6 [PAG CONSUMIDA]	COUNT: 328	DEPTH: 3	https://pa.linkedin.com/showcase/it-forum-365
+Thread-34 [PAG CONSUMIDA]	COUNT: 329	DEPTH: 3	https://ru.linkedin.com/showcase/it-forum-365
+Thread-47 [PAG CONSUMIDA]	COUNT: 330	DEPTH: 3	https://nl.linkedin.com/showcase/it-forum-365
+Thread-31 [PAG CONSUMIDA]	COUNT: 331	DEPTH: 3	https://ke.linkedin.com/showcase/it-forum-365
+Thread-18 [PAG CONSUMIDA]	COUNT: 332	DEPTH: 3	https://fr.linkedin.com/showcase/it-forum-365
+Thread-19 [PAG CONSUMIDA]	COUNT: 333	DEPTH: 3	https://ca.linkedin.com/showcase/it-forum-365
+Thread-66 [PAG CONSUMIDA]	COUNT: 334	DEPTH: 3	https://do.linkedin.com/showcase/it-forum-365
+Thread-63 [PAG CONSUMIDA]	COUNT: 335	DEPTH: 2	http://t.co/IuH7nzmWik
+Thread-16 [PAG CONSUMIDA]	COUNT: 336	DEPTH: 3	https://no.linkedin.com/showcase/it-forum-365
+Thread-9 [PAG CONSUMIDA]	COUNT: 337	DEPTH: 1	http://expressgroup.indianexpress.com/advertise.html
+Thread-48 [PAG CONSUMIDA]	COUNT: 338	DEPTH: 3	https://gh.linkedin.com/showcase/it-forum-365
+Thread-45 [PAG CONSUMIDA]	COUNT: 339	DEPTH: 3	https://pr.linkedin.com/showcase/it-forum-365
+Thread-28 [PAG CONSUMIDA]	COUNT: 340	DEPTH: 3	https://ec.linkedin.com/showcase/it-forum-365
+Thread-27 [PAG CONSUMIDA]	COUNT: 341	DEPTH: 2	https://www.google.com.br/imghp
+Thread-25 [PAG CONSUMIDA]	COUNT: 342	DEPTH: 3	https://cz.linkedin.com/showcase/it-forum-365
+Thread-8 [PAG CONSUMIDA]	COUNT: 343	DEPTH: 3	https://at.linkedin.com/showcase/it-forum-365
+Thread-46 [PAG CONSUMIDA]	COUNT: 344	DEPTH: 3	https://ph.linkedin.com/showcase/it-forum-365
+Thread-1 [PAG CONSUMIDA]	COUNT: 345	DEPTH: 3	https://se.linkedin.com/showcase/it-forum-365
+Thread-58 [PAG CONSUMIDA]	COUNT: 346	DEPTH: 3	https://kr.linkedin.com/showcase/it-forum-365
+Thread-11 [PAG CONSUMIDA]	COUNT: 347	DEPTH: 3	https://pk.linkedin.com/showcase/it-forum-365
+Thread-15 [PAG CONSUMIDA]	COUNT: 348	DEPTH: 3	https://tt.linkedin.com/showcase/it-forum-365
+Thread-18 [PAG CONSUMIDA]	COUNT: 349	DEPTH: 2	https://www.twitter.com/opensearch.xml
+Thread-46 [PAG CONSUMIDA]	COUNT: 350	DEPTH: 2	https://automattic.com
+Thread-2 [PAG CONSUMIDA]	COUNT: 351	DEPTH: 2	https://mobile.twitter.com/pcworld
+Thread-9 [PAG CONSUMIDA]	COUNT: 352	DEPTH: 3	https://www.stackcommerce.com/publishers
+Thread-27 [PAG CONSUMIDA]	COUNT: 353	DEPTH: 2	https://br.blog.wordpress.com
+Thread-1 [PAG CONSUMIDA]	COUNT: 354	DEPTH: 2	https://developers.google.com/tag-manager
+Thread-48 [PAG CONSUMIDA]	COUNT: 355	DEPTH: 3	https://bcc.wordpress.org
+Thread-11 [PAG CONSUMIDA]	COUNT: 356	DEPTH: 3	https://bel.wordpress.org
+Thread-58 [PAG CONSUMIDA]	COUNT: 357	DEPTH: 3	https://azb.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 358	DEPTH: 3	https://az-tr.wordpress.org
+Thread-45 [PAG CONSUMIDA]	COUNT: 359	DEPTH: 3	https://bg.wordpress.org
+Thread-62 [PAG CONSUMIDA]	COUNT: 360	DEPTH: 3	https://az.wordpress.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 361	DEPTH: 3	https://facebook.com/brwordpresscom
+Thread-18 [PAG CONSUMIDA]	COUNT: 362	DEPTH: 3	https://bo.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 363	DEPTH: 3	https://bs.wordpress.org
+Thread-19 [PAG CONSUMIDA]	COUNT: 364	DEPTH: 1	https://support.theguardian.com/subscribe
+Thread-31 [PAG CONSUMIDA]	COUNT: 365	DEPTH: 3	https://www.thinkwithgoogle.com/intl/en-gb/marketing-resources/programmatic/google-digital-academy
+Thread-68 [PAG CONSUMIDA]	COUNT: 366	DEPTH: 2	https://itunes.apple.com/es/app/taringa-app-oficial/id1180814939
+Thread-27 [PAG CONSUMIDA]	COUNT: 367	DEPTH: 3	https://ceb.wordpress.org
+Thread-9 [PAG CONSUMIDA]	COUNT: 368	DEPTH: 3	https://ca.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 369	DEPTH: 3	https://bre.wordpress.org
+Thread-8 [PAG CONSUMIDA]	COUNT: 370	DEPTH: 3	https://ku.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 371	DEPTH: 2	https://br.wordpress.com/pricing
+Thread-15 [PAG CONSUMIDA]	COUNT: 372	DEPTH: 1	https://profile.theguardian.com/public/edit
+Thread-47 [PAG CONSUMIDA]	COUNT: 373	DEPTH: 2	https://wordpress.com/themes
+Thread-62 [PAG CONSUMIDA]	COUNT: 374	DEPTH: 3	https://de-ch.wordpress.org
+Thread-11 [PAG CONSUMIDA]	COUNT: 375	DEPTH: 3	https://cy.wordpress.org
+Thread-16 [PAG CONSUMIDA]	COUNT: 376	DEPTH: 3	https://cs.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 377	DEPTH: 3	https://de.wordpress.org
+Thread-63 [PAG CONSUMIDA]	COUNT: 378	DEPTH: 2	https://apps.wordpress.org/mobile
+Thread-58 [PAG CONSUMIDA]	COUNT: 379	DEPTH: 3	https://da.wordpress.org
+Thread-48 [PAG CONSUMIDA]	COUNT: 380	DEPTH: 3	https://co.wordpress.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 381	DEPTH: 3	https://dv.wordpress.org
+Thread-18 [PAG CONSUMIDA]	COUNT: 382	DEPTH: 3	https://dzo.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 383	DEPTH: 4	https://stackcommerce.zendesk.com/hc/en-us/requests/new
+Thread-62 [PAG CONSUMIDA]	COUNT: 384	DEPTH: 3	https://www.yourprimer.com/assets/img/favicon_32retina.gif
+Thread-31 [PAG CONSUMIDA]	COUNT: 385	DEPTH: 3	https://support.apple.com/it-it
+Thread-28 [PAG CONSUMIDA]	COUNT: 386	DEPTH: 3	https://en-ca.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 387	DEPTH: 3	https://el.wordpress.org
+Thread-8 [PAG CONSUMIDA]	COUNT: 388	DEPTH: 3	https://en-au.wordpress.org
+Thread-27 [PAG CONSUMIDA]	COUNT: 389	DEPTH: 3	https://forum.jquery.com/feed
+Thread-47 [PAG CONSUMIDA]	COUNT: 390	DEPTH: 3	https://en-gb.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 391	DEPTH: 3	https://m.facebook.com/home.php
+Thread-23 [PAG CONSUMIDA]	COUNT: 392	DEPTH: 3	https://dev.twitter.com/overview/terms/agreement
+Thread-11 [PAG CONSUMIDA]	COUNT: 393	DEPTH: 3	https://en-nz.wordpress.org
+Thread-48 [PAG CONSUMIDA]	COUNT: 394	DEPTH: 3	http://www.meioemensagem.com.br/home/midia/2017/08/08/microinfluenciadores-quem-sao.html
+Thread-42 [PAG CONSUMIDA]	COUNT: 395	DEPTH: 2	https://www.youtube.com/watch
+Thread-68 [PAG CONSUMIDA]	COUNT: 396	DEPTH: 3	https://github.com/isaacs/minimatch
+Thread-11 [PAG CONSUMIDA]	COUNT: 397	DEPTH: 3	http://wpcomjs.com
+Thread-15 [PAG CONSUMIDA]	COUNT: 398	DEPTH: 3	https://www.stackpath.com/platform/network
+Thread-62 [PAG CONSUMIDA]	COUNT: 399	DEPTH: 3	https://academy.exceedlms.com/student/catalog
+Thread-49 [PAG CONSUMIDA]	COUNT: 400	DEPTH: 1	https://www.financialexpress.com
+Thread-47 [PAG CONSUMIDA]	COUNT: 401	DEPTH: 3	https://www.syncfusion.com/bundles/styles/bootstraplayoutcss
+Thread-6 [PAG CONSUMIDA]	COUNT: 402	DEPTH: 3	https://www.sinopetech.com/en/wp-json
+Thread-18 [PAG CONSUMIDA]	COUNT: 403	DEPTH: 3	https://es-ar.wordpress.org
+Thread-42 [PAG CONSUMIDA]	COUNT: 404	DEPTH: 3	https://en-za.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 405	DEPTH: 3	https://marketingplatform.google.com/about
+Thread-11 [PAG CONSUMIDA]	COUNT: 406	DEPTH: 3	https://es.wordpress.org
+Thread-68 [PAG CONSUMIDA]	COUNT: 407	DEPTH: 3	https://eo.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 408	DEPTH: 3	https://cl.wordpress.org
+Thread-15 [PAG CONSUMIDA]	COUNT: 409	DEPTH: 3	https://es-gt.wordpress.org
+Thread-16 [PAG CONSUMIDA]	COUNT: 410	DEPTH: 3	https://es-mx.wordpress.org
+Thread-63 [PAG CONSUMIDA]	COUNT: 411	DEPTH: 3	https://es-co.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 412	DEPTH: 3	https://es-cr.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 413	DEPTH: 3	https://blog.syncfusion.com
+Thread-62 [PAG CONSUMIDA]	COUNT: 414	DEPTH: 3	https://pe.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 415	DEPTH: 2	https://financialexpress.com/archive
+Thread-8 [PAG CONSUMIDA]	COUNT: 416	DEPTH: 3	https://community-canvas.org
+Thread-1 [PAG CONSUMIDA]	COUNT: 417	DEPTH: 3	https://www.syncfusion.io
+Thread-17 [PAG CONSUMIDA]	COUNT: 418	DEPTH: 3	https://www.squidit.com.br
+Thread-48 [PAG CONSUMIDA]	COUNT: 419	DEPTH: 2	https://about.flipboard.com/blog
+Thread-63 [PAG CONSUMIDA]	COUNT: 420	DEPTH: 3	https://frp.wordpress.org
+Thread-42 [PAG CONSUMIDA]	COUNT: 421	DEPTH: 3	https://fa.wordpress.org
+Thread-31 [PAG CONSUMIDA]	COUNT: 422	DEPTH: 3	http://www.fazenda.gov.br/assuntos/loterias-e-promocoes-comerciais
+Thread-19 [PAG CONSUMIDA]	COUNT: 423	DEPTH: 3	https://et.wordpress.org
+Thread-23 [PAG CONSUMIDA]	COUNT: 424	DEPTH: 3	https://interney.net/2017/06/09/marketing-de-influencia-78-empresas-que-estao-construindo-esse-mercado-no-brasil
+Thread-11 [PAG CONSUMIDA]	COUNT: 425	DEPTH: 3	https://fa-af.wordpress.org
+Thread-68 [PAG CONSUMIDA]	COUNT: 426	DEPTH: 3	https://fi.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 427	DEPTH: 3	https://fur.wordpress.org
+Thread-34 [PAG CONSUMIDA]	COUNT: 428	DEPTH: 2	https://m.youtube.com/user/PCWorldVideos
+Thread-18 [PAG CONSUMIDA]	COUNT: 429	DEPTH: 3	https://eu.wordpress.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 430	DEPTH: 3	https://fr-ca.wordpress.org
+Thread-15 [PAG CONSUMIDA]	COUNT: 431	DEPTH: 3	https://fr.wordpress.org
+Thread-49 [PAG CONSUMIDA]	COUNT: 432	DEPTH: 3	https://es-pr.wordpress.org
+Thread-16 [PAG CONSUMIDA]	COUNT: 433	DEPTH: 3	https://fr-be.wordpress.org
+Thread-47 [PAG CONSUMIDA]	COUNT: 434	DEPTH: 3	https://ve.wordpress.org
+Thread-62 [PAG CONSUMIDA]	COUNT: 435	DEPTH: 3	https://fy.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 436	DEPTH: 3	https://fao.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 437	DEPTH: 3	https://fuc.wordpress.org
+Thread-58 [PAG CONSUMIDA]	COUNT: 438	DEPTH: 3	https://s2.wp.com
+Thread-62 [PAG CONSUMIDA]	COUNT: 439	DEPTH: 3	https://it.wordpress.org
+Thread-68 [PAG CONSUMIDA]	COUNT: 440	DEPTH: 3	https://he.wordpress.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 441	DEPTH: 3	https://hy.wordpress.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 442	DEPTH: 3	https://ga.wordpress.org
+Thread-18 [PAG CONSUMIDA]	COUNT: 443	DEPTH: 3	https://hu.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 444	DEPTH: 3	https://hi.wordpress.org
+Thread-11 [PAG CONSUMIDA]	COUNT: 445	DEPTH: 3	https://haz.wordpress.org
+Thread-19 [PAG CONSUMIDA]	COUNT: 446	DEPTH: 3	https://hat.wordpress.org
+Thread-49 [PAG CONSUMIDA]	COUNT: 447	DEPTH: 3	https://ido.wordpress.org
+Thread-16 [PAG CONSUMIDA]	COUNT: 448	DEPTH: 3	https://is.wordpress.org
+Thread-31 [PAG CONSUMIDA]	COUNT: 449	DEPTH: 3	https://gl.wordpress.org
+Thread-63 [PAG CONSUMIDA]	COUNT: 450	DEPTH: 3	https://gd.wordpress.org
+Thread-23 [PAG CONSUMIDA]	COUNT: 451	DEPTH: 3	https://hau.wordpress.org
+Thread-34 [PAG CONSUMIDA]	COUNT: 452	DEPTH: 3	https://hr.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 453	DEPTH: 3	https://jv.wordpress.org
+Thread-42 [PAG CONSUMIDA]	COUNT: 454	DEPTH: 3	https://gu.wordpress.org
+Thread-47 [PAG CONSUMIDA]	COUNT: 455	DEPTH: 3	https://ja.wordpress.org
+Thread-15 [PAG CONSUMIDA]	COUNT: 456	DEPTH: 3	https://id.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 457	DEPTH: 3	https://ka.wordpress.org
+Thread-48 [PAG CONSUMIDA]	COUNT: 458	DEPTH: 3	https://en.support.wordpress.com/contact
+Thread-8 [PAG CONSUMIDA]	COUNT: 459	DEPTH: 3	https://kab.wordpress.org
+Thread-1 [PAG CONSUMIDA]	COUNT: 460	DEPTH: 3	https://kal.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 461	DEPTH: 3	https://woocommerce.com/page/2
+Thread-58 [PAG CONSUMIDA]	COUNT: 462	DEPTH: 3	https://kin.wordpress.org
+Thread-23 [PAG CONSUMIDA]	COUNT: 463	DEPTH: 3	https://mk.wordpress.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 464	DEPTH: 3	https://kn.wordpress.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 465	DEPTH: 3	https://ko.wordpress.org
+Thread-11 [PAG CONSUMIDA]	COUNT: 466	DEPTH: 3	https://lin.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 467	DEPTH: 3	https://li.wordpress.org
+Thread-31 [PAG CONSUMIDA]	COUNT: 468	DEPTH: 3	https://me.wordpress.org
+Thread-62 [PAG CONSUMIDA]	COUNT: 469	DEPTH: 3	https://kk.wordpress.org
+Thread-19 [PAG CONSUMIDA]	COUNT: 470	DEPTH: 3	https://lo.wordpress.org
+Thread-18 [PAG CONSUMIDA]	COUNT: 471	DEPTH: 3	https://ltz.wordpress.org
+Thread-47 [PAG CONSUMIDA]	COUNT: 472	DEPTH: 3	https://mri.wordpress.org
+Thread-15 [PAG CONSUMIDA]	COUNT: 473	DEPTH: 3	https://ms.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 474	DEPTH: 3	https://khk.wordpress.org
+Thread-68 [PAG CONSUMIDA]	COUNT: 475	DEPTH: 3	https://km.wordpress.org
+Thread-49 [PAG CONSUMIDA]	COUNT: 476	DEPTH: 3	https://lt.wordpress.org
+Thread-27 [PAG CONSUMIDA]	COUNT: 477	DEPTH: 3	https://docs.google.com/presentation/d/1WpQ0N0l4LBXFi4A_hwT0E2LUQSoxAhq3iRlTqyzGQio
+Thread-34 [PAG CONSUMIDA]	COUNT: 478	DEPTH: 3	https://ml.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 479	DEPTH: 3	https://mya.wordpress.org
+Thread-16 [PAG CONSUMIDA]	COUNT: 480	DEPTH: 3	https://lv.wordpress.org
+Thread-42 [PAG CONSUMIDA]	COUNT: 481	DEPTH: 3	https://mr.wordpress.org
+Thread-63 [PAG CONSUMIDA]	COUNT: 482	DEPTH: 3	https://mg.wordpress.org
+Thread-48 [PAG CONSUMIDA]	COUNT: 483	DEPTH: 3	https://nb.wordpress.org
+Thread-8 [PAG CONSUMIDA]	COUNT: 484	DEPTH: 3	https://ne.wordpress.org
+Thread-1 [PAG CONSUMIDA]	COUNT: 485	DEPTH: 3	https://nl.wordpress.org
+Thread-25 [PAG CONSUMIDA]	COUNT: 486	DEPTH: 3	https://nl-be.wordpress.org
+Thread-17 [PAG CONSUMIDA]	COUNT: 487	DEPTH: 3	https://ory.wordpress.org
+Thread-6 [PAG CONSUMIDA]	COUNT: 488	DEPTH: 3	https://oci.wordpress.org
+Thread-23 [PAG CONSUMIDA]	COUNT: 489	DEPTH: 3	https://nn.wordpress.org
+Thread-62 [PAG CONSUMIDA]	COUNT: 490	DEPTH: 3	https://ps.wordpress.org
+Thread-49 [PAG CONSUMIDA]	COUNT: 491	DEPTH: 3	https://rup.wordpress.org
+Thread-34 [PAG CONSUMIDA]	COUNT: 494	DEPTH: 3	https://sah.wordpress.org
+Thread-28 [PAG CONSUMIDA]	COUNT: 493	DEPTH: 3	https://scn.wordpress.org
+Thread-47 [PAG CONSUMIDA]	COUNT: 495	DEPTH: 3	https://rhg.wordpress.org
+Thread-11 [PAG CONSUMIDA]	COUNT: 492	DEPTH: 3	https://os.wordpress.org
+Thread-31 [PAG CONSUMIDA]	COUNT: 496	DEPTH: 3	https://pl.wordpress.org
+Thread-18 [PAG CONSUMIDA]	COUNT: 497	DEPTH: 3	https://br.wordpress.org
+Thread-68 [PAG CONSUMIDA]	COUNT: 498	DEPTH: 3	https://ru.wordpress.org
+Thread-2 [PAG CONSUMIDA]	COUNT: 499	DEPTH: 3	https://pan.wordpress.org
+Thread-66 [PAG CONSUMIDA]	COUNT: 500	DEPTH: 3	https://sna.wordpress.org
+Thread-46 [PAG CONSUMIDA]	COUNT: 501	DEPTH: 3	https://roh.wordpress.org
+Thread-46 [FINALIZADA]
+Thread-23 [FINALIZADA]
+Thread-11 [FINALIZADA]
+Thread-16 [PAG CONSUMIDA]	COUNT: 502	DEPTH: 3	https://si.wordpress.org
+Thread-16 [FINALIZADA]
+Thread-27 [PAG CONSUMIDA]	COUNT: 503	DEPTH: 3	https://sa.wordpress.org
+Thread-27 [FINALIZADA]
+Thread-15 [PAG CONSUMIDA]	COUNT: 504	DEPTH: 3	https://ro.wordpress.org
+Thread-15 [FINALIZADA]
+Thread-63 [PAG CONSUMIDA]	COUNT: 505	DEPTH: 3	https://sk.wordpress.org
+Thread-63 [FINALIZADA]
+Thread-48 [PAG CONSUMIDA]	COUNT: 506	DEPTH: 3	https://sl.wordpress.org
+Thread-48 [FINALIZADA]
+Thread-8 [PAG CONSUMIDA]	COUNT: 507	DEPTH: 3	https://snd.wordpress.org
+Thread-8 [FINALIZADA]
+Thread-1 [PAG CONSUMIDA]	COUNT: 508	DEPTH: 3	https://so.wordpress.org
+Thread-1 [FINALIZADA]
+Thread-25 [PAG CONSUMIDA]	COUNT: 509	DEPTH: 3	https://sq.wordpress.org
+Thread-25 [FINALIZADA]
+Thread-42 [PAG CONSUMIDA]	COUNT: 510	DEPTH: 3	https://sr.wordpress.org
+Thread-42 [FINALIZADA]
+Thread-2 [FINALIZADA]
+Thread-58 [PAG CONSUMIDA]	COUNT: 511	DEPTH: 3	https://sq-xk.wordpress.org
+Thread-58 [FINALIZADA]
+Thread-17 [PAG CONSUMIDA]	COUNT: 512	DEPTH: 3	https://srd.wordpress.org
+Thread-17 [FINALIZADA]
+Thread-6 [PAG CONSUMIDA]	COUNT: 513	DEPTH: 3	https://su.wordpress.org
+Thread-6 [FINALIZADA]
+Thread-19 [PAG CONSUMIDA]	COUNT: 514	DEPTH: 3	https://pt.wordpress.org
+Thread-19 [FINALIZADA]
+Thread-28 [FINALIZADA]
+Thread-31 [FINALIZADA]
+Thread-34 [FINALIZADA]
+Thread-53 [PAG CONSUMIDA]	COUNT: 515	DEPTH: 2	https://shop.pcworld.com/feed.rss
+Thread-53 [FINALIZADA]
+Thread-49 [PAG CONSUMIDA]	COUNT: 516	DEPTH: 1	https://computerworld.com.br/2017/10/27/novo-recurso-vai-permitir-upgrade-automatico-para-o-windows-10-enterprise
+Thread-49 [FINALIZADA]
+Thread-68 [FINALIZADA]
+Thread-18 [PAG CONSUMIDA]	COUNT: 517	DEPTH: 1	https://www.soy502.com/articulo/jimmy-morales-explica-pone-duda-proceso-electoral-100931
+Thread-18 [FINALIZADA]
+Thread-45 [PAG CONSUMIDA]	COUNT: 518	DEPTH: 3	https://learndigital.withgoogle.com/digitalgarage
+Thread-45 [FINALIZADA]
+Thread-66 [FINALIZADA]
+Thread-62 [PAG CONSUMIDA]	COUNT: 519	DEPTH: 1	https://www.pcworld.com/video
+Thread-62 [FINALIZADA]
+Thread-9 [PAG CONSUMIDA]	COUNT: 520	DEPTH: 2	https://flipboard.com/@ITMIDIA
+Thread-9 [FINALIZADA]
+Thread-47 [PAG CONSUMIDA]	COUNT: 521	DEPTH: 3	https://github.community
+Thread-47 [FINALIZADA]
+Thread-21 [PAG CONSUMIDA]	COUNT: 522	DEPTH: 2	https://es-es.facebook.com/ComputerworldBR
+Thread-21 [FINALIZADA]
+Thread-41 [PAG CONSUMIDA]	COUNT: 523	DEPTH: 2	https://fi-fi.facebook.com/ComputerworldBR
+Thread-41 [FINALIZADA]
+Thread-61 [PAG CONSUMIDA]	COUNT: 524	DEPTH: 2	https://en-gb.facebook.com/ComputerworldBR
+Thread-61 [FINALIZADA]
+Thread-56 [PAG CONSUMIDA]	COUNT: 525	DEPTH: 2	https://de-de.facebook.com/ComputerworldBR
+Thread-56 [FINALIZADA]
+Thread-36 [PAG CONSUMIDA]	COUNT: 526	DEPTH: 2	https://es-la.facebook.com/ComputerworldBR
+Thread-36 [FINALIZADA]
+Thread-4 [PAG CONSUMIDA]	COUNT: 527	DEPTH: 2	https://fr-ca.facebook.com/ComputerworldBR
+Thread-4 [FINALIZADA]
+Thread-40 [PAG CONSUMIDA]	COUNT: 528	DEPTH: 2	https://it-it.facebook.com/ComputerworldBR
+Thread-40 [FINALIZADA]
+Thread-0 [PAG CONSUMIDA]	COUNT: 529	DEPTH: 2	https://da-dk.facebook.com/ComputerworldBR
+Thread-0 [FINALIZADA]
+Thread-52 [PAG CONSUMIDA]	COUNT: 530	DEPTH: 2	https://sq-al.facebook.com/ComputerworldBR
+Thread-52 [FINALIZADA]
+Thread-22 [PAG CONSUMIDA]	COUNT: 531	DEPTH: 2	https://sr-rs.facebook.com/ComputerworldBR
+Thread-22 [FINALIZADA]
+Thread-12 [PAG CONSUMIDA]	COUNT: 532	DEPTH: 2	https://pt-pt.facebook.com/ComputerworldBR
+Thread-12 [FINALIZADA]
+Thread-5 [PAG CONSUMIDA]	COUNT: 533	DEPTH: 2	https://ar-ar.facebook.com/ComputerworldBR
+Thread-5 [FINALIZADA]
+Thread-20 [PAG CONSUMIDA]	COUNT: 534	DEPTH: 2	https://pt-br.facebook.com/ComputerworldBR
+Thread-20 [FINALIZADA]
+Thread-55 [PAG CONSUMIDA]	COUNT: 535	DEPTH: 2	https://ka-ge.facebook.com/ComputerworldBR
+Thread-55 [FINALIZADA]
+Thread-44 [PAG CONSUMIDA]	COUNT: 536	DEPTH: 2	https://ro-ro.facebook.com/ComputerworldBR
+Thread-44 [FINALIZADA]
+Thread-60 [PAG CONSUMIDA]	COUNT: 537	DEPTH: 2	https://zh-hk.facebook.com/ComputerworldBR
+Thread-60 [FINALIZADA]
+Thread-3 [PAG CONSUMIDA]	COUNT: 538	DEPTH: 2	https://vi-vn.facebook.com/ComputerworldBR
+Thread-3 [FINALIZADA]
+Thread-57 [PAG CONSUMIDA]	COUNT: 539	DEPTH: 2	https://ko-kr.facebook.com/ComputerworldBR
+Thread-57 [FINALIZADA]
+Thread-67 [PAG CONSUMIDA]	COUNT: 540	DEPTH: 2	https://hu-hu.facebook.com/ComputerworldBR
+Thread-67 [FINALIZADA]
+Thread-26 [PAG CONSUMIDA]	COUNT: 541	DEPTH: 2	https://pl-pl.facebook.com/ComputerworldBR
+Thread-26 [FINALIZADA]
+Thread-32 [PAG CONSUMIDA]	COUNT: 542	DEPTH: 2	https://nl-nl.facebook.com/ComputerworldBR
+Thread-32 [FINALIZADA]
+Thread-33 [PAG CONSUMIDA]	COUNT: 543	DEPTH: 2	https://zh-tw.facebook.com/ComputerworldBR
+Thread-33 [FINALIZADA]
+Thread-10 [PAG CONSUMIDA]	COUNT: 544	DEPTH: 2	https://bg-bg.facebook.com/ComputerworldBR
+Thread-10 [FINALIZADA]
+Thread-39 [PAG CONSUMIDA]	COUNT: 545	DEPTH: 2	https://id-id.facebook.com/ComputerworldBR
+Thread-39 [FINALIZADA]
+Thread-30 [PAG CONSUMIDA]	COUNT: 546	DEPTH: 2	https://hr-hr.facebook.com/ComputerworldBR
+Thread-30 [FINALIZADA]
+Thread-64 [PAG CONSUMIDA]	COUNT: 547	DEPTH: 2	https://he-il.facebook.com/ComputerworldBR
+Thread-64 [FINALIZADA]
+Thread-65 [PAG CONSUMIDA]	COUNT: 548	DEPTH: 2	https://cs-cz.facebook.com/ComputerworldBR
+Thread-65 [FINALIZADA]
+Thread-51 [PAG CONSUMIDA]	COUNT: 549	DEPTH: 2	https://fr-fr.facebook.com/ComputerworldBR
+Thread-51 [FINALIZADA]
+Thread-59 [PAG CONSUMIDA]	COUNT: 550	DEPTH: 2	https://ja-jp.facebook.com/ComputerworldBR
+Thread-59 [FINALIZADA]
+Thread-24 [PAG CONSUMIDA]	COUNT: 551	DEPTH: 2	https://sk-sk.facebook.com/ComputerworldBR
+Thread-24 [FINALIZADA]
+Thread-37 [PAG CONSUMIDA]	COUNT: 552	DEPTH: 2	https://nb-no.facebook.com/ComputerworldBR
+Thread-37 [FINALIZADA]
+Thread-43 [PAG CONSUMIDA]	COUNT: 553	DEPTH: 3	https://shop.techhive.com/feed.rss
+Thread-43 [FINALIZADA]
+Thread-14 [PAG CONSUMIDA]	COUNT: 554	DEPTH: 2	https://zh-cn.facebook.com/ComputerworldBR
+Thread-14 [FINALIZADA]
+Thread-13 [PAG CONSUMIDA]	COUNT: 555	DEPTH: 2	https://ms-my.facebook.com/ComputerworldBR
+Thread-13 [FINALIZADA]
+Thread-35 [PAG CONSUMIDA]	COUNT: 556	DEPTH: 2	https://sv-se.facebook.com/ComputerworldBR
+Thread-35 [FINALIZADA]
+Thread-50 [PAG CONSUMIDA]	COUNT: 557	DEPTH: 2	https://ru-ru.facebook.com/ComputerworldBR
+Thread-50 [FINALIZADA]
+Thread-54 [PAG CONSUMIDA]	COUNT: 558	DEPTH: 2	https://th-th.facebook.com/ComputerworldBR
+Thread-54 [FINALIZADA]
+Thread-69 [PAG CONSUMIDA]	COUNT: 559	DEPTH: 2	https://el-gr.facebook.com/ComputerworldBR
+Thread-69 [FINALIZADA]
+Thread-29 [PAG CONSUMIDA]	COUNT: 560	DEPTH: 2	https://tr-tr.facebook.com/ComputerworldBR
+Thread-29 [FINALIZADA]
