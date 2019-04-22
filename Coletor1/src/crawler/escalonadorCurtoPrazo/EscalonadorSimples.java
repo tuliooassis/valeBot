@@ -63,21 +63,26 @@ public class EscalonadorSimples implements Escalonador {
         URLAddress url = null;
         LinkedHashMap<Servidor, LinkedList<URLAddress>> filaPaginasCopy;
         filaPaginasCopy = (LinkedHashMap<Servidor, LinkedList<URLAddress>>) filaPaginas.clone();
+        LinkedList<Servidor> servidorVazio = new LinkedList<Servidor>();
         
         for (Servidor s : filaPaginasCopy.keySet()) {
             if (s.isAccessible() && !filaPaginasCopy.get(s).isEmpty()) {
                 url = filaPaginasCopy.get(s).removeFirst();
+                paginasColetadas.get(s).add(url);
                 s.acessadoAgora();
                 return url;
+            }
+            else if (filaPaginasCopy.get(s).isEmpty()) {
+                filaPaginas.remove(s);
             }
         }
         
         
-        try {
-            this.wait(Servidor.ACESSO_MILIS);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            this.wait(Servidor.ACESSO_MILIS);
+//        } catch (InterruptedException ex) {
+//            Logger.getLogger(EscalonadorSimples.class.getName()).log(Level.SEVERE, null, ex);
+//        }
 
 
         return url;
@@ -168,7 +173,7 @@ public class EscalonadorSimples implements Escalonador {
             fila.add(url);
             blackDominios.put(s, fila);
         }
-        System.out.println(Thread.currentThread().getName() + " [EXCECÃO] \t\t\t\t\t\t" + url.getAddress());
+        //System.out.println(Thread.currentThread().getName() + " [EXCECÃO] \t\t\t\t\t\t" + url.getAddress());
     }
 
     @Override
