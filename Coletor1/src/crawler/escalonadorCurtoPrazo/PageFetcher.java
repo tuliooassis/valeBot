@@ -15,6 +15,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;
 
@@ -54,15 +56,31 @@ public class PageFetcher implements Runnable {
                     HtmlCleaner hc = new HtmlCleaner();
                     TagNode tag = hc.clean(page);
                     TagNode[] urlNodes = tag.getElementsHavingAttribute("href", true);
-                    for (int i = 0; i < urlNodes.length; i++) {
-                        String urlToCollect = urlNodes[i].getAttributeByName("href");
-                        
-                        urlToCollect = ColetorUtil.getAbsoluteURL(url, urlToCollect);
+                    
+                    String regex = "^<meta.*name=\"robots\".*>$";
 
-                        if (ColetorUtil.excludeURL(urlToCollect))
-                            continue;
-                        
-                        escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
+                    Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE | Pattern.COMMENTS);
+                    Matcher matcher = pattern.matcher(page);
+                    Boolean noIndex = false;
+                    Boolean noFollow = false;
+                    
+                    if (matcher.matches()) {
+                        noIndex = matcher.group(0).contains("noindex");
+                        noFollow = matcher.group(0).contains("nofollow");
+                    }
+                    
+                    if (noIndex)
+                       continue;
+                    
+                    if (noFollow == false){
+                        for (int i = 0; i < urlNodes.length; i++) {
+                            String urlToCollect = urlNodes[i].getAttributeByName("href");
+                            urlToCollect = ColetorUtil.getAbsoluteURL(url, urlToCollect);
+                            if (ColetorUtil.excludeURL(urlToCollect))
+                                continue;
+
+                            escalonador.adicionaNovaPagina(new URLAddress(urlToCollect, url.getDepth() + 1));
+                        }
                     }
                     
                     escalonador.countFetchedPage();
